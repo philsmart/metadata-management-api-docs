@@ -1,0 +1,37 @@
+#%RAML 1.0
+title: saml-md-managment-api
+version: v1
+baseUri: http://www.jisc.ac.uk/md-man-api/v1
+
+/entities/addEntity:
+  post:
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              {
+                "message" : "Hello World"
+              }
+/entities/{entityId}:
+  description: An single entity resource that can be returned, replaced or deleted depending on HTTP verb.
+  get:
+    responses:
+      200:
+        body:
+          application/xml:
+            example: <>
+          application/json:
+            example: {}
+      404:
+        body:
+          application/json:
+            example: {"error" :  "entity {entityid} not found"}
+      401:
+        description: No rights over entity {entityid}
+  put:
+  delete:
+
+/entities:
+  description: List all entities (that a client has rights over)
+  get:
