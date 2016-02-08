@@ -4,6 +4,7 @@ version: v1
 baseUri: http://www.jisc.ac.uk/md-man-api/v1
 
 /entities/addEntity:
+  description: Adds a new entity fragment to the repository - subject to validation. Any validation errors are returned to the client.
   post:
     responses:
       200:
@@ -11,11 +12,16 @@ baseUri: http://www.jisc.ac.uk/md-man-api/v1
           application/json:
             example: |
               {
-                "message" : "Hello World"
+                "Result" : "Entity added"
               }
+      400:
+        body:
+          application/json:
+            example: {"ErrorStatus" : "Domain not owned by client member"}
 /entities/{entityId}:
-  description: An single entity resource that can be returned, replaced or deleted depending on HTTP verb.
+  description: An single entity resource.
   get:
+    description: Returns the entity if the client member has rights
     responses:
       200:
         body:
@@ -30,8 +36,47 @@ baseUri: http://www.jisc.ac.uk/md-man-api/v1
       401:
         description: No rights over entity {entityid}
   put:
+    description: Updates the entity in full from the input entity.
+    body:
+      application/xml:
+    responses:
+      200:
+        description: Entity updated
+
+
   delete:
 
 /entities:
   description: List all entities (that a client has rights over)
   get:
+    responses:
+      200:
+        description: all entites returned
+        body:
+          application/json:
+            example: {}
+      401:
+        description: Not authorised to view any entities
+
+
+/members:
+  description: List all members (that the client has rights over)
+  get:
+    responses:
+      200:
+        description: return all members (the client has rights over)
+        body:
+          application/json:
+            example: {}
+      401:
+        description: Not authorised to view any members
+/members/{memberId}:
+  description: A single member resource
+  get:
+
+  put:
+  delete:
+
+/members/addMember:
+  description: Adds a new member to the members file
+  post:
