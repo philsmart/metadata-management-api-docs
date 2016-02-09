@@ -1,23 +1,9 @@
-#%RAML 1.0
+#%RAML 0.8
 title: saml-md-managment-api
 version: v1
 baseUri: http://www.jisc.ac.uk/md-man-api/v1
 
-/entities/addEntity:
-  description: Adds a new entity fragment to the repository - subject to validation. Any validation errors are returned to the client.
-  post:
-    responses:
-      200:
-        body:
-          application/json:
-            example: |
-              {
-                "Result" : "Entity added"
-              }
-      400:
-        body:
-          application/json:
-            example: {"ErrorStatus" : "Domain not owned by client member"}
+
 /entities/{entityId}:
   description: An single entity resource.
   get:
@@ -28,11 +14,13 @@ baseUri: http://www.jisc.ac.uk/md-man-api/v1
           application/xml:
             example: <>
           application/json:
-            example: {}
+            example: |
+              {}
       404:
         body:
           application/json:
-            example: {"error" :  "entity {entityid} not found"}
+            example: |
+              {"error" :  "entity {entityid} not found"}
       401:
         description: No rights over entity {entityid}
   put:
@@ -54,10 +42,26 @@ baseUri: http://www.jisc.ac.uk/md-man-api/v1
         description: all entites returned
         body:
           application/json:
-            example: {}
+            example: |
+              {}
       401:
         description: Not authorised to view any entities
 
+  post:
+    description: Adds a new entity fragment to the repository - subject to validation. Any validation errors are returned to the client.
+    responses:
+        200:
+            body:
+              application/json:
+                example: |
+                  {
+                    "Result" : "Entity added"
+                  }
+        400:
+            body:
+                application/json:
+                  example: |
+                     {"ErrorStatus" : "Domain not owned by client member"}
 
 /members:
   description: List all members (that the client has rights over)
@@ -67,16 +71,16 @@ baseUri: http://www.jisc.ac.uk/md-man-api/v1
         description: return all members (the client has rights over)
         body:
           application/json:
-            example: {}
+            example: |
+              {}
       401:
         description: Not authorised to view any members
+  post:
+    description: Adds a new member to the members file
+
 /members/{memberId}:
   description: A single member resource
   get:
 
   put:
   delete:
-
-/members/addMember:
-  description: Adds a new member to the members file
-  post:
