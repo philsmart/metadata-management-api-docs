@@ -1,28 +1,28 @@
 #%RAML 0.8
 title: saml-md-managment-api
 version: v1
-baseUri: http://www.jisc.ac.uk/md-man-api/v1
+baseUri: http://www.jisc.ac.uk/saml-md-api/v1
 
 
 /entities/{entityId}:
-  description: An single entity resource.
+  description: Get a single entity resource. The EntityID must be URL encoded.
   get:
-    description: Returns the entity if the client member has rights
+    description: Returns the SAML Metadata Descriptor relating to the EntityId if it exists.
     responses:
+      404:
+        description: Entity has not been found in the repository
+        body:
+          application/hal+xml:
+            example: !include entityNotFound-404-error.xml
+
+      401:
+        description: No rights over entity {entityid}
       200:
         body:
           application/xml:
-            example: <>
-          application/json:
-            example: |
-              {}
-      404:
-        body:
-          application/json:
-            example: |
-              {"error" :  "entity {entityid} not found"}
-      401:
-        description: No rights over entity {entityid}
+            example: !include getEntity-200-response.xml
+
+
   put:
     description: Updates the entity in full from the input entity.
     body:
@@ -35,7 +35,7 @@ baseUri: http://www.jisc.ac.uk/md-man-api/v1
   delete:
 
 /entities:
-  description: List all entities (that a client has rights over)
+  description: List all entities
   get:
     responses:
       200:
@@ -62,25 +62,3 @@ baseUri: http://www.jisc.ac.uk/md-man-api/v1
                 application/json:
                   example: |
                      {"ErrorStatus" : "Domain not owned by client member"}
-
-/members:
-  description: List all members (that the client has rights over)
-  get:
-    responses:
-      200:
-        description: return all members (the client has rights over)
-        body:
-          application/json:
-            example: |
-              {}
-      401:
-        description: Not authorised to view any members
-  post:
-    description: Adds a new member to the members file
-
-/members/{memberId}:
-  description: A single member resource
-  get:
-
-  put:
-  delete:
