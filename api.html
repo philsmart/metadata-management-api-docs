@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html><head><title>saml-md-managment-api API documentation</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="generator" content="https://github.com/kevinrenskers/raml2html 2.2.0"><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css"><script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script><script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script><script type="text/javascript">
+<!DOCTYPE HTML><html><head><title>saml-md-man-api API documentation</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="generator" content="https://github.com/kevinrenskers/raml2html 2.2.0"><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css"><script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script><script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script><script type="text/javascript">
       $(document).ready(function() {
         $('.page-header pre code, .top-resource-description pre code').each(function(i, block) {
           hljs.highlightBlock(block);
@@ -142,7 +142,7 @@
       .list-group-item:hover {
         background-color: #f5f5f5;
       }
-    </style></head><body data-spy="scroll" data-target="#sidebar"><div class="container"><div class="row"><div class="col-md-9" role="main"><div class="page-header"><h1>saml-md-managment-api API documentation <small>version v1</small></h1><p>http://www.jisc.ac.uk/saml-md-api/v1</p></div><div class="panel panel-default"><div class="panel-heading"><h3 id="entities__entityId_" class="panel-title">/entities/{entityId}</h3></div><div class="panel-body"><div class="top-resource-description"><p>Get a single entity resource. The EntityID must be URL encoded.</p></div><div class="panel-group"><div class="panel panel-white"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_entities__entityId_"><span class="parent"></span>/entities/{entityId}</a> <span class="methods"><a href="#entities__entityId__get"><span class="badge badge_get">get</span></a> <a href="#entities__entityId__put"><span class="badge badge_put">put</span></a> <a href="#entities__entityId__delete"><span class="badge badge_delete">delete</span></a></span></h4></div><div id="panel_entities__entityId_" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#entities__entityId__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Returns the SAML Metadata Descriptor relating to the EntityId if it exists.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#entities__entityId__put'" class="list-group-item"><span class="badge badge_put">put</span><div class="method_description"><p>Updates the entity in full from the input entity.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#entities__entityId__delete'" class="list-group-item"><span class="badge badge_delete">delete</span><div class="method_description"></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities__entityId__get"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent"></span>/entities/{entityId}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Returns the SAML Metadata Descriptor relating to the EntityId if it exists.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#entities__entityId__get_request" data-toggle="tab">Request</a></li><li><a href="#entities__entityId__get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="entities__entityId__get_request"><h3>URI Parameters</h3><ul><li><strong>entityId</strong>: <em>required (string)</em></li></ul></div><div class="tab-pane" id="entities__entityId__get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Type: application/xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;DOMElementItemResource&gt;
+    </style></head><body data-spy="scroll" data-target="#sidebar"><div class="container"><div class="row"><div class="col-md-9" role="main"><div class="page-header"><h1>saml-md-man-api API documentation <small>version v0.9</small></h1><p>http://www.jisc.ac.uk/saml-md-api/v0.9</p></div><div class="panel panel-default"><div class="panel-heading"><h3 id="entities" class="panel-title">SAML Metadata Entitites</h3></div><div class="panel-body"><div class="panel-group"><div class="panel panel-white"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_entities__entityId_"><span class="parent">/entities</span>/{entityId}</a> <span class="methods"><a href="#entities__entityId__get"><span class="badge badge_get">get</span></a> <a href="#entities__entityId__put"><span class="badge badge_put">put</span></a> <a href="#entities__entityId__delete"><span class="badge badge_delete">delete</span></a></span></h4></div><div id="panel_entities__entityId_" class="panel-collapse collapse"><div class="panel-body"><div class="resource-description"><p>Represents a single SAML Metadata Entity Descriptor resource. The EntityID URI parameter must be URL encoded.</p></div><div class="list-group"><div onclick="window.location.href = '#entities__entityId__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Returns the SAML Metadata Descriptor relating to the EntityId if it exists.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#entities__entityId__put'" class="list-group-item"><span class="badge badge_put">put</span><div class="method_description"><p>Updates an existing SAML Entity Descriptor with given {entityId} if it exists.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#entities__entityId__delete'" class="list-group-item"><span class="badge badge_delete">delete</span><div class="method_description"><p>Deletes a SAML Metadata Descriptor from the repository. Deletes are currenty DEFERRED only. The delete will not occur IMMEDIATLY on the LIVE repository, and will take affect on the LIVE repositories normal update schedule.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities__entityId__get"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/entities</span>/{entityId}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Returns the SAML Metadata Descriptor relating to the EntityId if it exists.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#entities__entityId__get_request" data-toggle="tab">Request</a></li><li><a href="#entities__entityId__get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="entities__entityId__get_request"><h3>URI Parameters</h3><ul><li><strong>entityId.</strong>: <em>required (string)</em><p>The Unique Entity ID of a SAML entity. This <em>must</em> be URL encoded.</p></li></ul></div><div class="tab-pane" id="entities__entityId__get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;DOMElementItemResource&gt;
    &lt;elementSource&gt;master&lt;/elementSource&gt;
    &lt;entityId&gt;https://idp.kidderminster.ac.uk/idp/shibboleth&lt;/entityId&gt;
    &lt;domElementSerialised&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
@@ -267,7 +267,15 @@
       &lt;/links&gt;
    &lt;/links&gt;
 &lt;/DOMElementItemResource&gt;
-</code></pre><h2>HTTP status code <a href="http://httpstatus.es/401" target="_blank">401</a></h2><p>No rights over entity {entityid}</p><h2>HTTP status code <a href="http://httpstatus.es/404" target="_blank">404</a></h2><p>Entity has not been found in the repository</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/400" target="_blank">400</a></h2><p>Bad request. For example, can not decode the URL encoded entityId.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;1459245437715&lt;/timestamp&gt;
+   &lt;status&gt;400&lt;/status&gt;
+   &lt;error&gt;Bad Request&lt;/error&gt;
+   &lt;exception&gt;uk.ac.jisc.saml.mdman.util.UrlDecodeEntityIdException&lt;/exception&gt;
+   &lt;message&gt;java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "2Z"&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/https%253A%252Z%252Fidp.kidderminster.ac.uk%252Fidp%252Fshibboleth&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/404" target="_blank">404</a></h2><p>Entity has not been found in the repository</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
    &lt;timestamp&gt;1458838109865&lt;/timestamp&gt;
    &lt;status&gt;404&lt;/status&gt;
    &lt;error&gt;Not Found&lt;/error&gt;
@@ -275,9 +283,664 @@
    &lt;message&gt;Entity [http://test.entity/] not found&lt;/message&gt;
    &lt;path&gt;/saml-md-api/v1/entities/http%253A%252F%252Ftest.entity%252F&lt;/path&gt;
 &lt;/Map&gt;
-</code></pre></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities__entityId__put"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_put">put</span> <span class="parent"></span>/entities/{entityId}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Updates the entity in full from the input entity.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#entities__entityId__put_request" data-toggle="tab">Request</a></li><li><a href="#entities__entityId__put_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="entities__entityId__put_request"><h3>URI Parameters</h3><ul><li><strong>entityId</strong>: <em>required (string)</em></li></ul><h3>Body</h3><p><strong>Type: application/xml</strong></p></div><div class="tab-pane" id="entities__entityId__put_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><p>Entity updated</p></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities__entityId__delete"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_delete">delete</span> <span class="parent"></span>/entities/{entityId}</h4></div><div class="modal-body"><ul class="nav nav-tabs"><li class="active"><a href="#entities__entityId__delete_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="entities__entityId__delete_request"><h3>URI Parameters</h3><ul><li><strong>entityId</strong>: <em>required (string)</em></li></ul></div></div></div></div></div></div></div></div></div></div><div class="panel panel-default"><div class="panel-heading"><h3 id="entities" class="panel-title">/entities</h3></div><div class="panel-body"><div class="top-resource-description"><p>List all entities</p></div><div class="panel-group"><div class="panel panel-white"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_entities"><span class="parent"></span>/entities</a> <span class="methods"><a href="#entities_get"><span class="badge badge_get">get</span></a> <a href="#entities_post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_entities" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#entities_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"></div><div class="clearfix"></div></div><div onclick="window.location.href = '#entities_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Adds a new entity fragment to the repository - subject to validation. Any validation errors are returned to the client.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities_get"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent"></span>/entities</h4></div><div class="modal-body"><ul class="nav nav-tabs"><li><a href="#entities_get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane" id="entities_get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><p>all entites returned</p><h3>Body</h3><p><strong>Type: application/json</strong></p><p><strong>Example</strong>:</p><pre><code>{}
-</code></pre><h2>HTTP status code <a href="http://httpstatus.es/401" target="_blank">401</a></h2><p>Not authorised to view any entities</p></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities_post"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent"></span>/entities</h4></div><div class="modal-body"><div class="alert alert-info"><p>Adds a new entity fragment to the repository - subject to validation. Any validation errors are returned to the client.</p></div><ul class="nav nav-tabs"><li><a href="#entities_post_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane" id="entities_post_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Type: application/json</strong></p><p><strong>Example</strong>:</p><pre><code>{
-  "Result" : "Entity added"
-}
-</code></pre><h2>HTTP status code <a href="http://httpstatus.es/400" target="_blank">400</a></h2><h3>Body</h3><p><strong>Type: application/json</strong></p><p><strong>Example</strong>:</p><pre><code>{"ErrorStatus" : "Domain not owned by client member"}
-</code></pre></div></div></div></div></div></div></div></div></div></div></div><div class="col-md-3"><div id="sidebar" class="hidden-print affix" role="complementary"><ul class="nav nav-pills nav-stacked"><li><a href="#entities__entityId_">/entities/{entityId}</a></li><li><a href="#entities">/entities</a></li></ul></div></div></div></div></body></html>
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error - see error description in Body for details.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;TIME SINCE EPOCH&lt;/timestamp&gt;
+   &lt;status&gt;Http Status Code&lt;/status&gt;
+   &lt;error&gt;Http Status Code Title&lt;/error&gt;
+   &lt;exception&gt;Specific Java Exception&lt;/exception&gt;
+   &lt;message&gt;Friendly Message&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities__entityId__put"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_put">put</span> <span class="parent">/entities</span>/{entityId}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Updates an existing SAML Entity Descriptor with given {entityId} if it exists.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#entities__entityId__put_request" data-toggle="tab">Request</a></li><li><a href="#entities__entityId__put_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="entities__entityId__put_request"><h3>URI Parameters</h3><ul><li><strong>entityId.</strong>: <em>required (string)</em><p>The Unique Entity ID of a SAML entity. This <em>must</em> be URL encoded.</p></li></ul><h3>Headers</h3><ul><li><strong>X_MDMAN_PRIORITY</strong>: <em>required (one of IMMEDIATE, DEFERRED)</em><p>This <em>must</em> be set when an update to a SAML Entity Descriptor is requested. It represents an update that should trigger an IMMEDIATE change in the LIVE meatadata repository. Or a change that should be DEFERRED to the normal update schedule of the LIVE metadata repository. DEFERRED should be seen as the &#39;normal&#39; priority request for updates.</p><p><strong>Example</strong>:</p><pre>DEFERRED</pre></li></ul><h3>Body</h3><p><strong>Type: application/xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol"
+    xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init"
+    xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute"
+    xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi"
+    xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"
+    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:shibmd="urn:mace:shibboleth:metadata:1.0"
+    xmlns:ukfedlabel="http://ukfederation.org.uk/2006/11/label"
+    xmlns:wayf="http://sdss.ac.uk/2006/06/WAYF"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    ID="uk000046" entityID="https://idp.cardiff.ac.uk/shibboleth"&gt;
+    &lt;!--
+        This is a Shibboleth IdP (running clustered with Terracotta 3.0) for Cardiff University.
+    --&gt;
+    &lt;Extensions&gt;
+        &lt;shibmd:Scope regexp="false"&gt;cardiff.ac.uk&lt;/shibmd:Scope&gt;
+        &lt;ukfedlabel:UKFederationMember/&gt;
+        &lt;ukfedlabel:AccountableUsers/&gt;
+        &lt;ukfedlabel:Software fullVersion="2.3.6" version="2" name="Shibboleth" date="2013-03-29"/&gt;
+        &lt;ukfedlabel:ExportOptIn date="2014-02-27"/&gt;
+        &lt;mdrpi:RegistrationInfo registrationAuthority="http://ukfederation.org.uk"
+            registrationInstant="2006-10-23T17:54:00Z"&gt;
+            &lt;mdrpi:RegistrationPolicy xml:lang="en"
+                &gt;http://ukfederation.org.uk/doc/mdrps-20130902&lt;/mdrpi:RegistrationPolicy&gt;
+        &lt;/mdrpi:RegistrationInfo&gt;
+        &lt;mdattr:EntityAttributes&gt;
+            &lt;saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"&gt;
+                &lt;saml:AttributeValue&gt;http://refeds.org/category/research-and-scholarship&lt;/saml:AttributeValue&gt;
+            &lt;/saml:Attribute&gt;
+        &lt;/mdattr:EntityAttributes&gt;
+    &lt;/Extensions&gt;
+    &lt;IDPSSODescriptor
+        protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"&gt;
+        &lt;Extensions&gt;
+            &lt;shibmd:Scope regexp="false"&gt;cardiff.ac.uk&lt;/shibmd:Scope&gt;
+            &lt;mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"&gt;
+                &lt;mdui:DisplayName xml:lang="en"&gt;Cardiff University&lt;/mdui:DisplayName&gt;
+                &lt;mdui:DisplayName xml:lang="cy"&gt;Prifysgol Caerdydd&lt;/mdui:DisplayName&gt;
+                &lt;mdui:Logo height="16" width="16"&gt;https://static.cf.ac.uk/images/FAMLogos/cu-logo-16x16.png&lt;/mdui:Logo&gt;
+                &lt;mdui:Logo height="126" width="128"&gt;https://static.cf.ac.uk/images/FAMLogos/cu-logo-128x126.png&lt;/mdui:Logo&gt;
+                &lt;mdui:Logo height="62" width="64"&gt;https://static.cf.ac.uk/images/FAMLogos/cu-logo-64x62.png&lt;/mdui:Logo&gt;
+                &lt;mdui:Logo height="60" width="80"&gt;https://static.cf.ac.uk/images/FAMLogos/cu-logo-80x60t.png&lt;/mdui:Logo&gt;
+            &lt;/mdui:UIInfo&gt;
+            &lt;mdui:DiscoHints xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"&gt;
+                &lt;mdui:IPHint&gt;131.251.0.0/16&lt;/mdui:IPHint&gt;
+                &lt;mdui:DomainHint&gt;cardiff.ac.uk&lt;/mdui:DomainHint&gt;
+                &lt;mdui:DomainHint&gt;cf.ac.uk&lt;/mdui:DomainHint&gt;
+                &lt;mdui:GeolocationHint&gt;geo:51.487626,-3.178638&lt;/mdui:GeolocationHint&gt;
+            &lt;/mdui:DiscoHints&gt;
+        &lt;/Extensions&gt;
+        &lt;KeyDescriptor&gt;
+            &lt;ds:KeyInfo&gt;
+                &lt;ds:X509Data&gt;
+                    &lt;ds:X509Certificate&gt;
+                       CHANGED CERT
+                    &lt;/ds:X509Certificate&gt;
+                &lt;/ds:X509Data&gt;
+            &lt;/ds:KeyInfo&gt;
+        &lt;/KeyDescriptor&gt;
+        &lt;ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/&gt;
+        &lt;ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/&gt;
+        &lt;SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/Redirect/SLO"/&gt;
+        &lt;SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/POST/SLO"/&gt;
+        &lt;SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/POST-SimpleSign/SLO"/&gt;
+        &lt;SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML2/SOAP/SLO"/&gt;
+        &lt;NameIDFormat&gt;urn:mace:shibboleth:1.0:nameIdentifier&lt;/NameIDFormat&gt;
+        &lt;NameIDFormat&gt;urn:oasis:names:tc:SAML:2.0:nameid-format:transient&lt;/NameIDFormat&gt;
+        &lt;SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest"
+            Location="https://idp.cf.ac.uk/idp/profile/Shibboleth/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/POST/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/POST-SimpleSign/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/Redirect/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/SOAP/ECP"/&gt;
+    &lt;/IDPSSODescriptor&gt;
+    &lt;AttributeAuthorityDescriptor
+        protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"&gt;
+        &lt;Extensions&gt;
+            &lt;shibmd:Scope regexp="false"&gt;cardiff.ac.uk&lt;/shibmd:Scope&gt;
+        &lt;/Extensions&gt;
+        &lt;KeyDescriptor&gt;
+            &lt;ds:KeyInfo&gt;
+                &lt;ds:X509Data&gt;
+                    &lt;ds:X509Certificate&gt;
+                        MIIDHDCCAgSgAwIBAgIUe8wsOBcOivZ/X/QVj8+2Uw+jnbAwDQYJKoZIhvcNAQEF
+                        BQAwFzEVMBMGA1UEAxMMaWRwLmNmLmFjLnVrMB4XDTE0MDgxNDEzMTMxNVoXDTM0
+                        MDgxNDEzMTMxNVowFzEVMBMGA1UEAxMMaWRwLmNmLmFjLnVrMIIBIjANBgkqhkiG
+                        9w0BAQEFAAOCAQ8AMIIBCgKCAQEApqXJD7Pmm0di7+qRkZYSDcc3JLPzVQkylFiV
+                        bvpNphN9Rt9cRVv/qvN1nZVMYCanwzDJSz6idD4jip33u1up1szRTn5vfQLT5ta5
+                        +PBzZad2lIao4CGH4PzSbUTUxivhldMQShlonsxmtpdFinHOKMjt8WYXB7iF0qDm
+                        PQnJJC7tjHku/yc+d1Zh2VgzTG/OQ0fGvvkp5dFywjAAUH/ot/kheCqw4g0F/LHj
+                        PlKUMvGFZc7PnmYgVa7Xz9YI0ZJjdc8uCHsvEZfCpoDnTpigUUvqwuuvwdSR7aew
+                        SLcJi74+DXEZh/aa23HLVWrxk4xfMojpKVC+SwweohEeg4Wr3QIDAQABo2AwXjA9
+                        BgNVHREENjA0ggxpZHAuY2YuYWMudWuGJGh0dHBzOi8vaWRwLmNhcmRpZmYuYWMu
+                        dWsvc2hpYmJvbGV0aDAdBgNVHQ4EFgQUGzP0X/B4uf8Nz8c3KPWxG4gG8dQwDQYJ
+                        KoZIhvcNAQEFBQADggEBAGfqyC6ItIgEs3LtHUApmqvKDpFT90Uw03q4G5mwYT/Z
+                        8V2ml+ppXGJJbz2tdQcyJOXr+Ik2UmFauYvtedsAuc+q2j1i4LMrveo03XP1NrHY
+                        BMwMbvsjPqRbHk8398M4XA92712iB448+8kwI8zwu5Nlbayu9JF84eSEsufQHaA3
+                        2tEqUYZYw+5SIhUPPL+rJbOTh/sPYy0niY2RVX22MsBGHIH+c93gpSYoCdQI5XBu
+                        fj8uW6fP20q8JEagC8olauNbiOgoRFaxjTOjudZKT449m6DrOdbcvPgV0s0vxTlR
+                        tSTvwfp+LJO2OrKN2zIzV+mrAeKIWaatx542gFAATg8=
+                    &lt;/ds:X509Certificate&gt;
+                &lt;/ds:X509Data&gt;
+            &lt;/ds:KeyInfo&gt;
+        &lt;/KeyDescriptor&gt;
+        &lt;AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML1/SOAP/AttributeQuery"/&gt;
+        &lt;AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML2/SOAP/AttributeQuery"/&gt;
+        &lt;NameIDFormat&gt;urn:mace:shibboleth:1.0:nameIdentifier&lt;/NameIDFormat&gt;
+        &lt;NameIDFormat&gt;urn:oasis:names:tc:SAML:2.0:nameid-format:transient&lt;/NameIDFormat&gt;
+    &lt;/AttributeAuthorityDescriptor&gt;
+    &lt;Organization&gt;
+        &lt;OrganizationName xml:lang="en"&gt;Cardiff University&lt;/OrganizationName&gt;
+        &lt;OrganizationDisplayName xml:lang="en"&gt;Cardiff University&lt;/OrganizationDisplayName&gt;
+        &lt;OrganizationURL xml:lang="en"&gt;http://www.cardiff.ac.uk/&lt;/OrganizationURL&gt;
+    &lt;/Organization&gt;
+    &lt;ContactPerson contactType="support"&gt;
+        &lt;GivenName&gt;The Athens Team&lt;/GivenName&gt;
+        &lt;EmailAddress&gt;mailto:athens@cardiff.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="technical"&gt;
+        &lt;GivenName&gt;Rhys&lt;/GivenName&gt;
+        &lt;SurName&gt;Smith&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:smith@cardiff.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="administrative"&gt;
+        &lt;GivenName&gt;Rhys&lt;/GivenName&gt;
+        &lt;SurName&gt;Smith&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:smith@cardiff.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+&lt;/EntityDescriptor&gt;
+</code></pre></div><div class="tab-pane" id="entities__entityId__put_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><p>SAML Metadata Entity Descriptor for entity {entityId} updated</p><h3>Headers</h3><ul><li><strong>Location</strong>: <em>(string)</em><p>The HTTP redirect URI location of the newly updated SAML Entity Descriptor resource.</p></li></ul><h2>HTTP status code <a href="http://httpstatus.es/400" target="_blank">400</a></h2><p>Bad request. For example, can not decode the URL encoded entityId.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;1459245437715&lt;/timestamp&gt;
+   &lt;status&gt;400&lt;/status&gt;
+   &lt;error&gt;Bad Request&lt;/error&gt;
+   &lt;exception&gt;uk.ac.jisc.saml.mdman.util.UrlDecodeEntityIdException&lt;/exception&gt;
+   &lt;message&gt;java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "2Z"&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/https%253A%252Z%252Fidp.kidderminster.ac.uk%252Fidp%252Fshibboleth&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/404" target="_blank">404</a></h2><p>Entity has not been found in the repository</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;1458838109865&lt;/timestamp&gt;
+   &lt;status&gt;404&lt;/status&gt;
+   &lt;error&gt;Not Found&lt;/error&gt;
+   &lt;exception&gt;uk.ac.jisc.saml.mdman.controller.EntityNotFoundException&lt;/exception&gt;
+   &lt;message&gt;Entity [http://test.entity/] not found&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/http%253A%252F%252Ftest.entity%252F&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error - see error description in Body for details.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;TIME SINCE EPOCH&lt;/timestamp&gt;
+   &lt;status&gt;Http Status Code&lt;/status&gt;
+   &lt;error&gt;Http Status Code Title&lt;/error&gt;
+   &lt;exception&gt;Specific Java Exception&lt;/exception&gt;
+   &lt;message&gt;Friendly Message&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities__entityId__delete"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_delete">delete</span> <span class="parent">/entities</span>/{entityId}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Deletes a SAML Metadata Descriptor from the repository. Deletes are currenty DEFERRED only. The delete will not occur IMMEDIATLY on the LIVE repository, and will take affect on the LIVE repositories normal update schedule.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#entities__entityId__delete_request" data-toggle="tab">Request</a></li><li><a href="#entities__entityId__delete_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="entities__entityId__delete_request"><h3>URI Parameters</h3><ul><li><strong>entityId.</strong>: <em>required (string)</em><p>The Unique Entity ID of a SAML entity. This <em>must</em> be URL encoded.</p></li></ul></div><div class="tab-pane" id="entities__entityId__delete_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><p>SAML Metadata Entity Descriptor for entity {entityId} deleted (DEFERRED).</p><h2>HTTP status code <a href="http://httpstatus.es/400" target="_blank">400</a></h2><p>Bad request. For example, can not decode the URL encoded entityId.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;1459245437715&lt;/timestamp&gt;
+   &lt;status&gt;400&lt;/status&gt;
+   &lt;error&gt;Bad Request&lt;/error&gt;
+   &lt;exception&gt;uk.ac.jisc.saml.mdman.util.UrlDecodeEntityIdException&lt;/exception&gt;
+   &lt;message&gt;java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "2Z"&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/https%253A%252Z%252Fidp.kidderminster.ac.uk%252Fidp%252Fshibboleth&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/404" target="_blank">404</a></h2><p>Entity has not been found in the repository</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;1458838109865&lt;/timestamp&gt;
+   &lt;status&gt;404&lt;/status&gt;
+   &lt;error&gt;Not Found&lt;/error&gt;
+   &lt;exception&gt;uk.ac.jisc.saml.mdman.controller.EntityNotFoundException&lt;/exception&gt;
+   &lt;message&gt;Entity [http://test.entity/] not found&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/http%253A%252F%252Ftest.entity%252F&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error - see error description in Body for details.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;TIME SINCE EPOCH&lt;/timestamp&gt;
+   &lt;status&gt;Http Status Code&lt;/status&gt;
+   &lt;error&gt;Http Status Code Title&lt;/error&gt;
+   &lt;exception&gt;Specific Java Exception&lt;/exception&gt;
+   &lt;message&gt;Friendly Message&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre></div></div></div></div></div></div></div><div class="panel panel-white"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_entities_"><span class="parent">/entities</span>/</a> <span class="methods"><a href="#entities__get"><span class="badge badge_get">get</span></a> <a href="#entities__post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_entities_" class="panel-collapse collapse"><div class="panel-body"><div class="resource-description"><p>A Collection of all known SAML Metadata Entity Descriptors. Returned as a list of indivudual items.</p></div><div class="list-group"><div onclick="window.location.href = '#entities__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"></div><div class="clearfix"></div></div><div onclick="window.location.href = '#entities__post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Adds a new SAML Entity Descriptor fragment to the repository - subject to validation. Any validation errors are returned to the client.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities__get"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/entities</span>/</h4></div><div class="modal-body"><ul class="nav nav-tabs"><li><a href="#entities__get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane" id="entities__get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><p>All Known SAML Metadata entities returned.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Collection&gt;
+   &lt;item&gt;
+      &lt;elementSource&gt;master&lt;/elementSource&gt;
+      &lt;entityId&gt;https://idp2.iay.org.uk/idp/shibboleth&lt;/entityId&gt;
+      &lt;domElementSerialised&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ukfedlabel="http://ukfederation.org.uk/2006/11/label" xmlns:wayf="http://sdss.ac.uk/2006/06/WAYF" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uk000006" entityID="https://idp2.iay.org.uk/idp/shibboleth" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata ../xml/saml-schema-metadata-2.0.xsd         urn:oasis:names:tc:SAML:metadata:algsupport ../xml/sstc-saml-metadata-algsupport-v1.0.xsd         urn:oasis:names:tc:SAML:metadata:attribute ../xml/sstc-metadata-attr.xsd         urn:oasis:names:tc:SAML:metadata:rpi ../xml/saml-metadata-rpi-v1.0.xsd         urn:oasis:names:tc:SAML:metadata:ui ../xml/sstc-saml-metadata-ui-v1.0.xsd         urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol ../xml/sstc-saml-idp-discovery.xsd         urn:oasis:names:tc:SAML:profiles:SSO:request-init ../xml/sstc-request-initiation.xsd         urn:oasis:names:tc:SAML:2.0:assertion ../xml/saml-schema-assertion-2.0.xsd         urn:mace:shibboleth:metadata:1.0 ../xml/shibboleth-metadata-1.0.xsd         http://ukfederation.org.uk/2006/11/label ../xml/uk-fed-label.xsd         http://www.w3.org/2001/04/xmlenc# ../xml/xenc-schema.xsd         http://www.w3.org/2009/xmlenc11# ../xml/xenc-schema-11.xsd         http://www.w3.org/2000/09/xmldsig# ../xml/xmldsig-core-schema.xsd"&gt;
+    &lt;!--
+        This is an "Ian A. Young" IdP for Ian A. Young.
+    --&gt;
+    &lt;Extensions&gt;
+        &lt;ukfedlabel:UKFederationMember/&gt;
+        &lt;shibmd:Scope regexp="false"&gt;iay.org.uk&lt;/shibmd:Scope&gt;
+        &lt;ukfedlabel:Software date="2015-12-21" fullVersion="3.2.1" name="Shibboleth" version="3"/&gt;
+        &lt;ukfedlabel:ExportOptIn date="2009-09-11"/&gt;
+        &lt;mdrpi:RegistrationInfo registrationAuthority="http://ukfederation.org.uk" registrationInstant="2007-03-30T16:36:00Z"&gt;
+            &lt;mdrpi:RegistrationPolicy xml:lang="en"&gt;http://ukfederation.org.uk/doc/mdrps-20130902&lt;/mdrpi:RegistrationPolicy&gt;
+        &lt;/mdrpi:RegistrationInfo&gt;
+        &lt;mdattr:EntityAttributes&gt;
+            &lt;saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"&gt;
+                &lt;saml:AttributeValue&gt;http://refeds.org/category/research-and-scholarship&lt;/saml:AttributeValue&gt;
+            &lt;/saml:Attribute&gt;
+        &lt;/mdattr:EntityAttributes&gt;
+    &lt;/Extensions&gt;
+    &lt;IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:2.0:protocol"&gt;
+        &lt;Extensions&gt;
+            &lt;mdui:UIInfo&gt;
+                &lt;mdui:DisplayName xml:lang="en"&gt;Ian A. Young&lt;/mdui:DisplayName&gt;
+                &lt;mdui:Description xml:lang="en"&gt;This is the identity provider for the iay.org.uk domain.&lt;/mdui:Description&gt;
+                &lt;mdui:Logo height="80" width="80"&gt;https://idp2.iay.org.uk/images/heads_80x80.jpg&lt;/mdui:Logo&gt;
+                &lt;mdui:Logo height="43" width="100"&gt;https://idp2.iay.org.uk/images/heads_100x43.jpg&lt;/mdui:Logo&gt;
+                &lt;mdui:Logo height="104" width="240"&gt;https://idp2.iay.org.uk/images/heads_240x104.jpg&lt;/mdui:Logo&gt;
+            &lt;/mdui:UIInfo&gt;
+            &lt;mdui:DiscoHints&gt;
+                &lt;mdui:IPHint&gt;217.155.173.104/29&lt;/mdui:IPHint&gt;
+                &lt;mdui:DomainHint&gt;iay.org.uk&lt;/mdui:DomainHint&gt;
+                &lt;mdui:GeolocationHint&gt;geo:55.9328,-3.17905&lt;/mdui:GeolocationHint&gt;
+            &lt;/mdui:DiscoHints&gt;
+        &lt;/Extensions&gt;
+        &lt;KeyDescriptor&gt;
+            &lt;ds:KeyInfo&gt;
+                &lt;ds:X509Data&gt;
+                    &lt;ds:X509Certificate&gt;
+                        MIIDSTCCAjGgAwIBAgIhAMSPOSGN+3UUTXSKV+2EBOuF3x/pwPX/TD9GfyEkzLp+
+                        MA0GCSqGSIb3DQEBBQUAMFgxGDAWBgNVBAMMD2lkcDIuaWF5Lm9yZy51azETMBEG
+                        CgmSJomT8ixkARkWA2lheTETMBEGCgmSJomT8ixkARkWA29yZzESMBAGCgmSJomT
+                        8ixkARkWAnVrMB4XDTA4MDIyNTEwMzAxNFoXDTI4MDIyNTEwMzAxNFowWDEYMBYG
+                        A1UEAwwPaWRwMi5pYXkub3JnLnVrMRMwEQYKCZImiZPyLGQBGRYDaWF5MRMwEQYK
+                        CZImiZPyLGQBGRYDb3JnMRIwEAYKCZImiZPyLGQBGRYCdWswggEiMA0GCSqGSIb3
+                        DQEBAQUAA4IBDwAwggEKAoIBAQCb6ts48g10XHTnpy+23huzR184aahkrG0AoeUl
+                        FVlomPjoFDk6czq0S3Qyd+ceF7tMRu3XzS7cMmtVH53O9d+wCs8aPQcPXxHQ5gLk
+                        L7Gu6eJ+3N3jXhpt7/DDPhnzFPNW3EVMueHJ/0IzyspTvq2LPbNWXJ86NKJ+gesZ
+                        QftskwXScOjpoJEIP0EA890QYd4WdYtQPqVV+LPKtnYBoGOnuRhSAM1D/EhCbeb0
+                        lCmRGcdGbDFBchiPO4VLGl85sLa0EhjxMIPAOKXcj8bBlO9Ww9kkG06kQp6eLHwm
+                        Jmt7VNKveCGhyF2QH/CvmdUaPv3gcp1UjrlqFN9LBVSaTIL/AgMBAAEwDQYJKoZI
+                        hvcNAQEFBQADggEBAG+jDBAtlKoHaEBB+l6PpW5zuiDjyHG4zZZYqX77mZ9xP/xe
+                        Kn0yJ18ZLjS3b9WztGLYyC4SJHSF2okq1K02bqsCv9YeP+UWpw2uRR8jt96lLWxZ
+                        jTjoko2v8jBtzDk8LZsqw58m4vZ0AGNZjKeGIywKhxnepwREguyj3bjBpZAGgl0M
+                        HQuXoO/BDC9yKyZslE5CpWp5xP4XzY2/LrorrkwOJLnFuk1sox4/gvkDQukUx/jr
+                        YRbrWfOjcNBx3LE/HI6RNLINicK7yUwerDE86nix5Zc3hskVcCykW+r6HbY6bx7P
+                        YmNKYMZhQAgDtXIjFHOy+WbyVTidmJvxM9UeYCY=
+                    &lt;/ds:X509Certificate&gt;
+                &lt;/ds:X509Data&gt;
+            &lt;/ds:KeyInfo&gt;
+        &lt;/KeyDescriptor&gt;
+        &lt;ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp2.iay.org.uk:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/&gt;
+        &lt;ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.iay.org.uk:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/&gt;
+        &lt;NameIDFormat&gt;urn:mace:shibboleth:1.0:nameIdentifier&lt;/NameIDFormat&gt;
+        &lt;NameIDFormat&gt;urn:oasis:names:tc:SAML:2.0:nameid-format:transient&lt;/NameIDFormat&gt;
+        &lt;SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp2.iay.org.uk/idp/profile/Shibboleth/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp2.iay.org.uk/idp/profile/SAML2/POST/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp2.iay.org.uk/idp/profile/SAML2/POST-SimpleSign/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp2.iay.org.uk/idp/profile/SAML2/Redirect/SSO"/&gt;
+    &lt;/IDPSSODescriptor&gt;
+    &lt;AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"&gt;
+        &lt;KeyDescriptor&gt;
+            &lt;ds:KeyInfo&gt;
+                &lt;ds:X509Data&gt;
+                    &lt;ds:X509Certificate&gt;
+                        MIIDSTCCAjGgAwIBAgIhAMSPOSGN+3UUTXSKV+2EBOuF3x/pwPX/TD9GfyEkzLp+
+                        MA0GCSqGSIb3DQEBBQUAMFgxGDAWBgNVBAMMD2lkcDIuaWF5Lm9yZy51azETMBEG
+                        CgmSJomT8ixkARkWA2lheTETMBEGCgmSJomT8ixkARkWA29yZzESMBAGCgmSJomT
+                        8ixkARkWAnVrMB4XDTA4MDIyNTEwMzAxNFoXDTI4MDIyNTEwMzAxNFowWDEYMBYG
+                        A1UEAwwPaWRwMi5pYXkub3JnLnVrMRMwEQYKCZImiZPyLGQBGRYDaWF5MRMwEQYK
+                        CZImiZPyLGQBGRYDb3JnMRIwEAYKCZImiZPyLGQBGRYCdWswggEiMA0GCSqGSIb3
+                        DQEBAQUAA4IBDwAwggEKAoIBAQCb6ts48g10XHTnpy+23huzR184aahkrG0AoeUl
+                        FVlomPjoFDk6czq0S3Qyd+ceF7tMRu3XzS7cMmtVH53O9d+wCs8aPQcPXxHQ5gLk
+                        L7Gu6eJ+3N3jXhpt7/DDPhnzFPNW3EVMueHJ/0IzyspTvq2LPbNWXJ86NKJ+gesZ
+                        QftskwXScOjpoJEIP0EA890QYd4WdYtQPqVV+LPKtnYBoGOnuRhSAM1D/EhCbeb0
+                        lCmRGcdGbDFBchiPO4VLGl85sLa0EhjxMIPAOKXcj8bBlO9Ww9kkG06kQp6eLHwm
+                        Jmt7VNKveCGhyF2QH/CvmdUaPv3gcp1UjrlqFN9LBVSaTIL/AgMBAAEwDQYJKoZI
+                        hvcNAQEFBQADggEBAG+jDBAtlKoHaEBB+l6PpW5zuiDjyHG4zZZYqX77mZ9xP/xe
+                        Kn0yJ18ZLjS3b9WztGLYyC4SJHSF2okq1K02bqsCv9YeP+UWpw2uRR8jt96lLWxZ
+                        jTjoko2v8jBtzDk8LZsqw58m4vZ0AGNZjKeGIywKhxnepwREguyj3bjBpZAGgl0M
+                        HQuXoO/BDC9yKyZslE5CpWp5xP4XzY2/LrorrkwOJLnFuk1sox4/gvkDQukUx/jr
+                        YRbrWfOjcNBx3LE/HI6RNLINicK7yUwerDE86nix5Zc3hskVcCykW+r6HbY6bx7P
+                        YmNKYMZhQAgDtXIjFHOy+WbyVTidmJvxM9UeYCY=
+                    &lt;/ds:X509Certificate&gt;
+                &lt;/ds:X509Data&gt;
+            &lt;/ds:KeyInfo&gt;
+        &lt;/KeyDescriptor&gt;
+        &lt;AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp2.iay.org.uk:8443/idp/profile/SAML1/SOAP/AttributeQuery"/&gt;
+        &lt;AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.iay.org.uk:8443/idp/profile/SAML2/SOAP/AttributeQuery"/&gt;
+        &lt;NameIDFormat&gt;urn:mace:shibboleth:1.0:nameIdentifier&lt;/NameIDFormat&gt;
+        &lt;NameIDFormat&gt;urn:oasis:names:tc:SAML:2.0:nameid-format:transient&lt;/NameIDFormat&gt;
+    &lt;/AttributeAuthorityDescriptor&gt;
+    &lt;Organization&gt;
+        &lt;OrganizationName xml:lang="en"&gt;Ian A. Young&lt;/OrganizationName&gt;
+        &lt;OrganizationDisplayName xml:lang="en"&gt;Ian A. Young&lt;/OrganizationDisplayName&gt;
+        &lt;OrganizationURL xml:lang="en"&gt;http://iay.org.uk/&lt;/OrganizationURL&gt;
+    &lt;/Organization&gt;
+    &lt;ContactPerson contactType="support"&gt;
+        &lt;GivenName&gt;Ian&lt;/GivenName&gt;
+        &lt;SurName&gt;Young&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:ukfed+fc2ee77e@iay.org.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="technical"&gt;
+        &lt;GivenName&gt;Ian&lt;/GivenName&gt;
+        &lt;SurName&gt;Young&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:ukfed+fc2ee77e@iay.org.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="administrative"&gt;
+        &lt;GivenName&gt;Ian&lt;/GivenName&gt;
+        &lt;SurName&gt;Young&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:ian@iay.org.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+&lt;/EntityDescriptor&gt;]]&gt;&lt;/domElementSerialised&gt;
+      &lt;links&gt;
+         &lt;links&gt;
+            &lt;rel&gt;deleteEntity&lt;/rel&gt;
+            &lt;href&gt;http://localhost:8080/saml-md-api/v1/entities/https%253A%252F%252Fidp2.iay.org.uk%252Fidp%252Fshibboleth&lt;/href&gt;
+         &lt;/links&gt;
+         &lt;links&gt;
+            &lt;rel&gt;self&lt;/rel&gt;
+            &lt;href&gt;http://localhost:8080/saml-md-api/v1/entities/https%253A%252F%252Fidp2.iay.org.uk%252Fidp%252Fshibboleth&lt;/href&gt;
+         &lt;/links&gt;
+      &lt;/links&gt;
+   &lt;/item&gt;
+   &lt;item&gt;
+      &lt;elementSource&gt;master&lt;/elementSource&gt;
+      &lt;entityId&gt;urn:mace:eduserv.org.uk:athens:provider:tvu.ac.uk&lt;/entityId&gt;
+      &lt;domElementSerialised&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ukfedlabel="http://ukfederation.org.uk/2006/11/label" xmlns:wayf="http://sdss.ac.uk/2006/06/WAYF" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uk000026" entityID="urn:mace:eduserv.org.uk:athens:provider:tvu.ac.uk" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata ../xml/saml-schema-metadata-2.0.xsd         urn:oasis:names:tc:SAML:metadata:algsupport ../xml/sstc-saml-metadata-algsupport-v1.0.xsd         urn:oasis:names:tc:SAML:metadata:attribute ../xml/sstc-metadata-attr.xsd         urn:oasis:names:tc:SAML:metadata:rpi ../xml/saml-metadata-rpi-v1.0.xsd         urn:oasis:names:tc:SAML:metadata:ui ../xml/sstc-saml-metadata-ui-v1.0.xsd         urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol ../xml/sstc-saml-idp-discovery.xsd         urn:oasis:names:tc:SAML:profiles:SSO:request-init ../xml/sstc-request-initiation.xsd         urn:oasis:names:tc:SAML:2.0:assertion ../xml/saml-schema-assertion-2.0.xsd         urn:mace:shibboleth:metadata:1.0 ../xml/shibboleth-metadata-1.0.xsd         http://ukfederation.org.uk/2006/11/label ../xml/uk-fed-label.xsd         http://www.w3.org/2001/04/xmlenc# ../xml/xenc-schema.xsd         http://www.w3.org/2009/xmlenc11# ../xml/xenc-schema-11.xsd         http://www.w3.org/2000/09/xmldsig# ../xml/xmldsig-core-schema.xsd"&gt;
+    &lt;!--
+        This is a Shibboleth IdP for The University of West London.
+    --&gt;
+    &lt;Extensions&gt;
+        &lt;shibmd:Scope regexp="false"&gt;tvu.ac.uk&lt;/shibmd:Scope&gt;
+        &lt;ukfedlabel:UKFederationMember/&gt;
+        &lt;ukfedlabel:AccountableUsers/&gt;
+        &lt;ukfedlabel:Software date="2010-02-02" fullVersion="2.1.4" name="Shibboleth" version="2"/&gt;
+        &lt;wayf:HideFromWAYF/&gt;
+    &lt;/Extensions&gt;
+    &lt;IDPSSODescriptor protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"&gt;
+        &lt;Extensions&gt;
+            &lt;shibmd:Scope regexp="false"&gt;tvu.ac.uk&lt;/shibmd:Scope&gt;
+        &lt;/Extensions&gt;
+        &lt;KeyDescriptor&gt;
+            &lt;ds:KeyInfo&gt;
+                &lt;ds:X509Data&gt;
+                    &lt;ds:X509Certificate&gt;
+                        MIIEeDCCA2CgAwIBAgIRAJsjppl09pdBOodDFDJIICEwDQYJKoZIhvcNAQEFBQAw
+                        NjELMAkGA1UEBhMCTkwxDzANBgNVBAoTBlRFUkVOQTEWMBQGA1UEAxMNVEVSRU5B
+                        IFNTTCBDQTAeFw0xMzA0MTUwMDAwMDBaFw0xNjA0MTQyMzU5NTlaMEMxITAfBgNV
+                        BAsTGERvbWFpbiBDb250cm9sIFZhbGlkYXRlZDEeMBwGA1UEAxMVc2hpYmJvbGV0
+                        aDIudHZ1LmFjLnVrMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsrIB
+                        oRzm965a3jJw5ZtnlwkDPOsdRsqpINAO0wK1l7dgCNkCyXHE83GA71wqtKa3n3/5
+                        BVfPXd8uhWop/THWmUu/29VyMEJdo94ahl9KJ1IxkSFW/nDIsHTrQddZr/sjYNtw
+                        jOohG/iDZve6LLhrdPxuiCgOcVCq32kg01/erwvpFJBgu4hsdFL0jrhn0mHPqc9N
+                        RMXnRP7duAvWKPH6cTUKeCkCYhanYZemZoEhsFPUP+ahQOraZnSHVa0zeUjIUPBC
+                        VisVzGQjzG1nS5WRcIMaWhjsCeF/rVGhhbuV/rVIPbYfM7YlmJiIyL+zzzlQcORR
+                        ZgrGz3ijeyCQZsY92wIDAQABo4IBcjCCAW4wHwYDVR0jBBgwFoAUDL2TaAzz3quj
+                        SWsrN1dH6pDjue0wHQYDVR0OBBYEFMZZ7NSWwqtYB0te0FBz956PHQYmMA4GA1Ud
+                        DwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggr
+                        BgEFBQcDAjAiBgNVHSAEGzAZMA0GCysGAQQBsjEBAgIdMAgGBmeBDAECATA6BgNV
+                        HR8EMzAxMC+gLaArhilodHRwOi8vY3JsLnRjcy50ZXJlbmEub3JnL1RFUkVOQVNT
+                        TENBLmNybDBtBggrBgEFBQcBAQRhMF8wNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQu
+                        dGNzLnRlcmVuYS5vcmcvVEVSRU5BU1NMQ0EuY3J0MCYGCCsGAQUFBzABhhpodHRw
+                        Oi8vb2NzcC50Y3MudGVyZW5hLm9yZzAgBgNVHREEGTAXghVzaGliYm9sZXRoMi50
+                        dnUuYWMudWswDQYJKoZIhvcNAQEFBQADggEBAAYWCw70ie/vQUIFBceDxr6c5Pm9
+                        5hTQStS6scyEX9j65f81CnzAzXhuwNqyYn8QbWMm4WV/j7RJhqE5sNNgEIoyAWWt
+                        LG+XOuDCTuHEcwMgsoMq6ESPDBkuVSxxrX4YeyI3ssGKAOkpMqhsxrfLDkIwE4/r
+                        VxxkimAI4E7GnN7RJDykAo4pczr1VqyMxVACEW561CFxcp2PNFs9m0fM16tkla4f
+                        fytNoHcf/mcJWXaAAOkoDmCob0F8bJauUx9Ul4Nhsp8SyXpMQoKlxuxInHNU3nkJ
+                        s4XBFY3CGcP1NizUMMo6uWkiqC68iprykMcar3qMC/h4aPCdWDmeS1BZPgo=
+                    &lt;/ds:X509Certificate&gt;
+                &lt;/ds:X509Data&gt;
+            &lt;/ds:KeyInfo&gt;
+        &lt;/KeyDescriptor&gt;
+        &lt;ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth2.tvu.ac.uk:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/&gt;
+        &lt;ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth2.tvu.ac.uk:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/&gt;
+        &lt;NameIDFormat&gt;urn:mace:shibboleth:1.0:nameIdentifier&lt;/NameIDFormat&gt;
+        &lt;NameIDFormat&gt;urn:oasis:names:tc:SAML:2.0:nameid-format:transient&lt;/NameIDFormat&gt;
+        &lt;SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibboleth2.tvu.ac.uk/idp/profile/Shibboleth/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth2.tvu.ac.uk/idp/profile/SAML2/POST/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibboleth2.tvu.ac.uk/idp/profile/SAML2/POST-SimpleSign/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shibboleth2.tvu.ac.uk/idp/profile/SAML2/Redirect/SSO"/&gt;
+    &lt;/IDPSSODescriptor&gt;
+    &lt;AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"&gt;
+        &lt;Extensions&gt;
+            &lt;shibmd:Scope regexp="false"&gt;tvu.ac.uk&lt;/shibmd:Scope&gt;
+        &lt;/Extensions&gt;
+        &lt;KeyDescriptor&gt;
+            &lt;ds:KeyInfo&gt;
+                &lt;ds:X509Data&gt;
+                    &lt;ds:X509Certificate&gt;
+                        MIIEeDCCA2CgAwIBAgIRAJsjppl09pdBOodDFDJIICEwDQYJKoZIhvcNAQEFBQAw
+                        NjELMAkGA1UEBhMCTkwxDzANBgNVBAoTBlRFUkVOQTEWMBQGA1UEAxMNVEVSRU5B
+                        IFNTTCBDQTAeFw0xMzA0MTUwMDAwMDBaFw0xNjA0MTQyMzU5NTlaMEMxITAfBgNV
+                        BAsTGERvbWFpbiBDb250cm9sIFZhbGlkYXRlZDEeMBwGA1UEAxMVc2hpYmJvbGV0
+                        aDIudHZ1LmFjLnVrMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsrIB
+                        oRzm965a3jJw5ZtnlwkDPOsdRsqpINAO0wK1l7dgCNkCyXHE83GA71wqtKa3n3/5
+                        BVfPXd8uhWop/THWmUu/29VyMEJdo94ahl9KJ1IxkSFW/nDIsHTrQddZr/sjYNtw
+                        jOohG/iDZve6LLhrdPxuiCgOcVCq32kg01/erwvpFJBgu4hsdFL0jrhn0mHPqc9N
+                        RMXnRP7duAvWKPH6cTUKeCkCYhanYZemZoEhsFPUP+ahQOraZnSHVa0zeUjIUPBC
+                        VisVzGQjzG1nS5WRcIMaWhjsCeF/rVGhhbuV/rVIPbYfM7YlmJiIyL+zzzlQcORR
+                        ZgrGz3ijeyCQZsY92wIDAQABo4IBcjCCAW4wHwYDVR0jBBgwFoAUDL2TaAzz3quj
+                        SWsrN1dH6pDjue0wHQYDVR0OBBYEFMZZ7NSWwqtYB0te0FBz956PHQYmMA4GA1Ud
+                        DwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggr
+                        BgEFBQcDAjAiBgNVHSAEGzAZMA0GCysGAQQBsjEBAgIdMAgGBmeBDAECATA6BgNV
+                        HR8EMzAxMC+gLaArhilodHRwOi8vY3JsLnRjcy50ZXJlbmEub3JnL1RFUkVOQVNT
+                        TENBLmNybDBtBggrBgEFBQcBAQRhMF8wNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQu
+                        dGNzLnRlcmVuYS5vcmcvVEVSRU5BU1NMQ0EuY3J0MCYGCCsGAQUFBzABhhpodHRw
+                        Oi8vb2NzcC50Y3MudGVyZW5hLm9yZzAgBgNVHREEGTAXghVzaGliYm9sZXRoMi50
+                        dnUuYWMudWswDQYJKoZIhvcNAQEFBQADggEBAAYWCw70ie/vQUIFBceDxr6c5Pm9
+                        5hTQStS6scyEX9j65f81CnzAzXhuwNqyYn8QbWMm4WV/j7RJhqE5sNNgEIoyAWWt
+                        LG+XOuDCTuHEcwMgsoMq6ESPDBkuVSxxrX4YeyI3ssGKAOkpMqhsxrfLDkIwE4/r
+                        VxxkimAI4E7GnN7RJDykAo4pczr1VqyMxVACEW561CFxcp2PNFs9m0fM16tkla4f
+                        fytNoHcf/mcJWXaAAOkoDmCob0F8bJauUx9Ul4Nhsp8SyXpMQoKlxuxInHNU3nkJ
+                        s4XBFY3CGcP1NizUMMo6uWkiqC68iprykMcar3qMC/h4aPCdWDmeS1BZPgo=
+                    &lt;/ds:X509Certificate&gt;
+                &lt;/ds:X509Data&gt;
+            &lt;/ds:KeyInfo&gt;
+        &lt;/KeyDescriptor&gt;
+        &lt;AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth2.tvu.ac.uk:8443/idp/profile/SAML1/SOAP/AttributeQuery"/&gt;
+        &lt;AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth2.tvu.ac.uk:8443/idp/profile/SAML2/SOAP/AttributeQuery"/&gt;
+        &lt;NameIDFormat&gt;urn:mace:shibboleth:1.0:nameIdentifier&lt;/NameIDFormat&gt;
+        &lt;NameIDFormat&gt;urn:oasis:names:tc:SAML:2.0:nameid-format:transient&lt;/NameIDFormat&gt;
+    &lt;/AttributeAuthorityDescriptor&gt;
+    &lt;Organization&gt;
+        &lt;OrganizationName xml:lang="en"&gt;The University of West London&lt;/OrganizationName&gt;
+        &lt;OrganizationDisplayName xml:lang="en"&gt;University of West London (Old)&lt;/OrganizationDisplayName&gt;
+        &lt;OrganizationURL xml:lang="en"&gt;http://www.tvu.ac.uk/&lt;/OrganizationURL&gt;
+    &lt;/Organization&gt;
+    &lt;ContactPerson contactType="support"&gt;
+        &lt;GivenName&gt;IT Service Helpdesk&lt;/GivenName&gt;
+        &lt;EmailAddress&gt;mailto:itservicedesk@uwl.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="support"&gt;
+        &lt;GivenName&gt;Amanda&lt;/GivenName&gt;
+        &lt;SurName&gt;Burns&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:amanda.burns@uwl.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="support"&gt;
+        &lt;GivenName&gt;Vani&lt;/GivenName&gt;
+        &lt;SurName&gt;Aul&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:Vani.Aul@uwl.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="technical"&gt;
+        &lt;GivenName&gt;IT Network Services&lt;/GivenName&gt;
+        &lt;EmailAddress&gt;mailto:networkservices@uwl.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="technical"&gt;
+        &lt;GivenName&gt;Richard&lt;/GivenName&gt;
+        &lt;SurName&gt;Rumun&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:richard.rumun@uwl.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="administrative"&gt;
+        &lt;GivenName&gt;Louise&lt;/GivenName&gt;
+        &lt;SurName&gt;Penn&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:louise.penn@uwl.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="administrative"&gt;
+        &lt;GivenName&gt;Vinay&lt;/GivenName&gt;
+        &lt;SurName&gt;Dhir&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:vinay.dhir@uwl.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+&lt;/EntityDescriptor&gt;]]&gt;&lt;/domElementSerialised&gt;
+      &lt;links&gt;
+         &lt;links&gt;
+            &lt;rel&gt;deleteEntity&lt;/rel&gt;
+            &lt;href&gt;http://localhost:8080/saml-md-api/v1/entities/urn%253Amace%253Aeduserv.org.uk%253Aathens%253Aprovider%253Atvu.ac.uk&lt;/href&gt;
+         &lt;/links&gt;
+         &lt;links&gt;
+            &lt;rel&gt;self&lt;/rel&gt;
+            &lt;href&gt;http://localhost:8080/saml-md-api/v1/entities/urn%253Amace%253Aeduserv.org.uk%253Aathens%253Aprovider%253Atvu.ac.uk&lt;/href&gt;
+         &lt;/links&gt;
+      &lt;/links&gt;
+   &lt;/item&gt;
+   ....
+&lt;/Collection&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error.</p></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="entities__post"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent">/entities</span>/</h4></div><div class="modal-body"><div class="alert alert-info"><p>Adds a new SAML Entity Descriptor fragment to the repository - subject to validation. Any validation errors are returned to the client.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#entities__post_request" data-toggle="tab">Request</a></li><li><a href="#entities__post_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="entities__post_request"><h3>Body</h3><p><strong>Type: application/xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol"
+    xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init"
+    xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute"
+    xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi"
+    xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"
+    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:shibmd="urn:mace:shibboleth:metadata:1.0"
+    xmlns:ukfedlabel="http://ukfederation.org.uk/2006/11/label"
+    xmlns:wayf="http://sdss.ac.uk/2006/06/WAYF"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    ID="uk000046" entityID="https://idp.cardiff.ac.uk/shibboleth"&gt;
+    &lt;!--
+        This is a Shibboleth IdP (running clustered with Terracotta 3.0) for Cardiff University.
+    --&gt;
+    &lt;Extensions&gt;
+        &lt;shibmd:Scope regexp="false"&gt;cardiff.ac.uk&lt;/shibmd:Scope&gt;
+        &lt;ukfedlabel:UKFederationMember/&gt;
+        &lt;ukfedlabel:AccountableUsers/&gt;
+        &lt;ukfedlabel:Software fullVersion="2.3.6" version="2" name="Shibboleth" date="2013-03-29"/&gt;
+        &lt;ukfedlabel:ExportOptIn date="2014-02-27"/&gt;
+        &lt;mdrpi:RegistrationInfo registrationAuthority="http://ukfederation.org.uk"
+            registrationInstant="2006-10-23T17:54:00Z"&gt;
+            &lt;mdrpi:RegistrationPolicy xml:lang="en"
+                &gt;http://ukfederation.org.uk/doc/mdrps-20130902&lt;/mdrpi:RegistrationPolicy&gt;
+        &lt;/mdrpi:RegistrationInfo&gt;
+        &lt;mdattr:EntityAttributes&gt;
+            &lt;saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"&gt;
+                &lt;saml:AttributeValue&gt;http://refeds.org/category/research-and-scholarship&lt;/saml:AttributeValue&gt;
+            &lt;/saml:Attribute&gt;
+        &lt;/mdattr:EntityAttributes&gt;
+    &lt;/Extensions&gt;
+    &lt;IDPSSODescriptor
+        protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"&gt;
+        &lt;Extensions&gt;
+            &lt;shibmd:Scope regexp="false"&gt;cardiff.ac.uk&lt;/shibmd:Scope&gt;
+            &lt;mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"&gt;
+                &lt;mdui:DisplayName xml:lang="en"&gt;Cardiff University&lt;/mdui:DisplayName&gt;
+                &lt;mdui:DisplayName xml:lang="cy"&gt;Prifysgol Caerdydd&lt;/mdui:DisplayName&gt;
+                &lt;mdui:Logo height="16" width="16"&gt;https://static.cf.ac.uk/images/FAMLogos/cu-logo-16x16.png&lt;/mdui:Logo&gt;
+                &lt;mdui:Logo height="126" width="128"&gt;https://static.cf.ac.uk/images/FAMLogos/cu-logo-128x126.png&lt;/mdui:Logo&gt;
+                &lt;mdui:Logo height="62" width="64"&gt;https://static.cf.ac.uk/images/FAMLogos/cu-logo-64x62.png&lt;/mdui:Logo&gt;
+                &lt;mdui:Logo height="60" width="80"&gt;https://static.cf.ac.uk/images/FAMLogos/cu-logo-80x60t.png&lt;/mdui:Logo&gt;
+            &lt;/mdui:UIInfo&gt;
+            &lt;mdui:DiscoHints xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"&gt;
+                &lt;mdui:IPHint&gt;131.251.0.0/16&lt;/mdui:IPHint&gt;
+                &lt;mdui:DomainHint&gt;cardiff.ac.uk&lt;/mdui:DomainHint&gt;
+                &lt;mdui:DomainHint&gt;cf.ac.uk&lt;/mdui:DomainHint&gt;
+                &lt;mdui:GeolocationHint&gt;geo:51.487626,-3.178638&lt;/mdui:GeolocationHint&gt;
+            &lt;/mdui:DiscoHints&gt;
+        &lt;/Extensions&gt;
+        &lt;KeyDescriptor&gt;
+            &lt;ds:KeyInfo&gt;
+                &lt;ds:X509Data&gt;
+                    &lt;ds:X509Certificate&gt;
+                       CHANGED CERT
+                    &lt;/ds:X509Certificate&gt;
+                &lt;/ds:X509Data&gt;
+            &lt;/ds:KeyInfo&gt;
+        &lt;/KeyDescriptor&gt;
+        &lt;ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/&gt;
+        &lt;ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/&gt;
+        &lt;SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/Redirect/SLO"/&gt;
+        &lt;SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/POST/SLO"/&gt;
+        &lt;SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/POST-SimpleSign/SLO"/&gt;
+        &lt;SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML2/SOAP/SLO"/&gt;
+        &lt;NameIDFormat&gt;urn:mace:shibboleth:1.0:nameIdentifier&lt;/NameIDFormat&gt;
+        &lt;NameIDFormat&gt;urn:oasis:names:tc:SAML:2.0:nameid-format:transient&lt;/NameIDFormat&gt;
+        &lt;SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest"
+            Location="https://idp.cf.ac.uk/idp/profile/Shibboleth/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/POST/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/POST-SimpleSign/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/Redirect/SSO"/&gt;
+        &lt;SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.cf.ac.uk/idp/profile/SAML2/SOAP/ECP"/&gt;
+    &lt;/IDPSSODescriptor&gt;
+    &lt;AttributeAuthorityDescriptor
+        protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"&gt;
+        &lt;Extensions&gt;
+            &lt;shibmd:Scope regexp="false"&gt;cardiff.ac.uk&lt;/shibmd:Scope&gt;
+        &lt;/Extensions&gt;
+        &lt;KeyDescriptor&gt;
+            &lt;ds:KeyInfo&gt;
+                &lt;ds:X509Data&gt;
+                    &lt;ds:X509Certificate&gt;
+                        MIIDHDCCAgSgAwIBAgIUe8wsOBcOivZ/X/QVj8+2Uw+jnbAwDQYJKoZIhvcNAQEF
+                        BQAwFzEVMBMGA1UEAxMMaWRwLmNmLmFjLnVrMB4XDTE0MDgxNDEzMTMxNVoXDTM0
+                        MDgxNDEzMTMxNVowFzEVMBMGA1UEAxMMaWRwLmNmLmFjLnVrMIIBIjANBgkqhkiG
+                        9w0BAQEFAAOCAQ8AMIIBCgKCAQEApqXJD7Pmm0di7+qRkZYSDcc3JLPzVQkylFiV
+                        bvpNphN9Rt9cRVv/qvN1nZVMYCanwzDJSz6idD4jip33u1up1szRTn5vfQLT5ta5
+                        +PBzZad2lIao4CGH4PzSbUTUxivhldMQShlonsxmtpdFinHOKMjt8WYXB7iF0qDm
+                        PQnJJC7tjHku/yc+d1Zh2VgzTG/OQ0fGvvkp5dFywjAAUH/ot/kheCqw4g0F/LHj
+                        PlKUMvGFZc7PnmYgVa7Xz9YI0ZJjdc8uCHsvEZfCpoDnTpigUUvqwuuvwdSR7aew
+                        SLcJi74+DXEZh/aa23HLVWrxk4xfMojpKVC+SwweohEeg4Wr3QIDAQABo2AwXjA9
+                        BgNVHREENjA0ggxpZHAuY2YuYWMudWuGJGh0dHBzOi8vaWRwLmNhcmRpZmYuYWMu
+                        dWsvc2hpYmJvbGV0aDAdBgNVHQ4EFgQUGzP0X/B4uf8Nz8c3KPWxG4gG8dQwDQYJ
+                        KoZIhvcNAQEFBQADggEBAGfqyC6ItIgEs3LtHUApmqvKDpFT90Uw03q4G5mwYT/Z
+                        8V2ml+ppXGJJbz2tdQcyJOXr+Ik2UmFauYvtedsAuc+q2j1i4LMrveo03XP1NrHY
+                        BMwMbvsjPqRbHk8398M4XA92712iB448+8kwI8zwu5Nlbayu9JF84eSEsufQHaA3
+                        2tEqUYZYw+5SIhUPPL+rJbOTh/sPYy0niY2RVX22MsBGHIH+c93gpSYoCdQI5XBu
+                        fj8uW6fP20q8JEagC8olauNbiOgoRFaxjTOjudZKT449m6DrOdbcvPgV0s0vxTlR
+                        tSTvwfp+LJO2OrKN2zIzV+mrAeKIWaatx542gFAATg8=
+                    &lt;/ds:X509Certificate&gt;
+                &lt;/ds:X509Data&gt;
+            &lt;/ds:KeyInfo&gt;
+        &lt;/KeyDescriptor&gt;
+        &lt;AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML1/SOAP/AttributeQuery"/&gt;
+        &lt;AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://idp.cf.ac.uk:8443/idp/profile/SAML2/SOAP/AttributeQuery"/&gt;
+        &lt;NameIDFormat&gt;urn:mace:shibboleth:1.0:nameIdentifier&lt;/NameIDFormat&gt;
+        &lt;NameIDFormat&gt;urn:oasis:names:tc:SAML:2.0:nameid-format:transient&lt;/NameIDFormat&gt;
+    &lt;/AttributeAuthorityDescriptor&gt;
+    &lt;Organization&gt;
+        &lt;OrganizationName xml:lang="en"&gt;Cardiff University&lt;/OrganizationName&gt;
+        &lt;OrganizationDisplayName xml:lang="en"&gt;Cardiff University&lt;/OrganizationDisplayName&gt;
+        &lt;OrganizationURL xml:lang="en"&gt;http://www.cardiff.ac.uk/&lt;/OrganizationURL&gt;
+    &lt;/Organization&gt;
+    &lt;ContactPerson contactType="support"&gt;
+        &lt;GivenName&gt;The Athens Team&lt;/GivenName&gt;
+        &lt;EmailAddress&gt;mailto:athens@cardiff.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="technical"&gt;
+        &lt;GivenName&gt;Rhys&lt;/GivenName&gt;
+        &lt;SurName&gt;Smith&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:smith@cardiff.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+    &lt;ContactPerson contactType="administrative"&gt;
+        &lt;GivenName&gt;Rhys&lt;/GivenName&gt;
+        &lt;SurName&gt;Smith&lt;/SurName&gt;
+        &lt;EmailAddress&gt;mailto:smith@cardiff.ac.uk&lt;/EmailAddress&gt;
+    &lt;/ContactPerson&gt;
+&lt;/EntityDescriptor&gt;
+</code></pre></div><div class="tab-pane" id="entities__post_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Headers</h3><ul><li><strong>Location</strong>: <em>(string)</em><p>The HTTP redirect URI location of the newly created SAML Entity Descriptor resource.</p></li></ul><h2>HTTP status code <a href="http://httpstatus.es/400" target="_blank">400</a></h2><p>Bad request, could not convert the input payload to a valid XML document.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;1459248207849&lt;/timestamp&gt;
+   &lt;status&gt;400&lt;/status&gt;
+   &lt;error&gt;Bad Request&lt;/error&gt;
+   &lt;exception&gt;uk.ac.jisc.saml.mdman.controller.PayloadConversionException&lt;/exception&gt;
+   &lt;message&gt;Could not convert payload to XML Docuemnt&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/409" target="_blank">409</a></h2><p>Conflict, entityId already exists, entity descriptor could not be added to the repository.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;1459248057379&lt;/timestamp&gt;
+   &lt;status&gt;409&lt;/status&gt;
+   &lt;error&gt;Conflict&lt;/error&gt;
+   &lt;exception&gt;uk.ac.jisc.saml.mdman.entities.DuplicateEntityInRepositoryException&lt;/exception&gt;
+   &lt;message&gt;EntityId already exists&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error - see error description in Body for details.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+   &lt;timestamp&gt;TIME SINCE EPOCH&lt;/timestamp&gt;
+   &lt;status&gt;Http Status Code&lt;/status&gt;
+   &lt;error&gt;Http Status Code Title&lt;/error&gt;
+   &lt;exception&gt;Specific Java Exception&lt;/exception&gt;
+   &lt;message&gt;Friendly Message&lt;/message&gt;
+   &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
+&lt;/Map&gt;
+</code></pre></div></div></div></div></div></div></div></div></div></div></div><div class="col-md-3"><div id="sidebar" class="hidden-print affix" role="complementary"><ul class="nav nav-pills nav-stacked"><li><a href="#entities">SAML Metadata Entitites</a></li></ul></div></div></div></div></body></html>
