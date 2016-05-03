@@ -286,7 +286,7 @@
 </code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error - see error description in Body for details.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
    &lt;timestamp&gt;TIME SINCE EPOCH&lt;/timestamp&gt;
    &lt;status&gt;Http Status Code&lt;/status&gt;
-   &lt;error&gt;Http Status Code Title&lt;/error&gt;
+   &lt;error&gt;Http Status&lt;/error&gt;
    &lt;exception&gt;Specific Java Exception&lt;/exception&gt;
    &lt;message&gt;Friendly Message&lt;/message&gt;
    &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
@@ -436,7 +436,7 @@
         &lt;EmailAddress&gt;mailto:smith@cardiff.ac.uk&lt;/EmailAddress&gt;
     &lt;/ContactPerson&gt;
 &lt;/EntityDescriptor&gt;
-</code></pre></div><div class="tab-pane" id="entities__entityId__put_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><p>SAML Metadata Entity Descriptor for entity {entityId} updated</p><h3>Headers</h3><ul><li><strong>Location</strong>: <em>(string)</em><p>The HTTP redirect URI location of the newly updated SAML Entity Descriptor resource.</p></li></ul><h2>HTTP status code <a href="http://httpstatus.es/400" target="_blank">400</a></h2><p>Bad request. For example, can not decode the URL encoded entityId.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
+</code></pre></div><div class="tab-pane" id="entities__entityId__put_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><p>SAML Metadata Entity Descriptor for entity {entityId} updated</p><h3>Headers</h3><ul><li><strong>Location</strong>: <em>(string)</em><p>The HTTP redirect URI location of the newly updated SAML Entity Descriptor resource.</p></li></ul><h2>HTTP status code <a href="http://httpstatus.es/400" target="_blank">400</a></h2><p>Bad request. For example, can not decode the URL encoded entityId, or the entityId in the payload does not match the request.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
    &lt;timestamp&gt;1459245437715&lt;/timestamp&gt;
    &lt;status&gt;400&lt;/status&gt;
    &lt;error&gt;Bad Request&lt;/error&gt;
@@ -455,7 +455,7 @@
 </code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error - see error description in Body for details.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
    &lt;timestamp&gt;TIME SINCE EPOCH&lt;/timestamp&gt;
    &lt;status&gt;Http Status Code&lt;/status&gt;
-   &lt;error&gt;Http Status Code Title&lt;/error&gt;
+   &lt;error&gt;Http Status&lt;/error&gt;
    &lt;exception&gt;Specific Java Exception&lt;/exception&gt;
    &lt;message&gt;Friendly Message&lt;/message&gt;
    &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
@@ -479,7 +479,7 @@
 </code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error - see error description in Body for details.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
    &lt;timestamp&gt;TIME SINCE EPOCH&lt;/timestamp&gt;
    &lt;status&gt;Http Status Code&lt;/status&gt;
-   &lt;error&gt;Http Status Code Title&lt;/error&gt;
+   &lt;error&gt;Http Status&lt;/error&gt;
    &lt;exception&gt;Specific Java Exception&lt;/exception&gt;
    &lt;message&gt;Friendly Message&lt;/message&gt;
    &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;
@@ -938,7 +938,7 @@
 </code></pre><h2>HTTP status code <a href="http://httpstatus.es/500" target="_blank">500</a></h2><p>Generic server processing error - see error description in Body for details.</p><h3>Body</h3><p><strong>Type: application/hal+xml</strong></p><p><strong>Example</strong>:</p><pre><code>&lt;Map&gt;
    &lt;timestamp&gt;TIME SINCE EPOCH&lt;/timestamp&gt;
    &lt;status&gt;Http Status Code&lt;/status&gt;
-   &lt;error&gt;Http Status Code Title&lt;/error&gt;
+   &lt;error&gt;Http Status&lt;/error&gt;
    &lt;exception&gt;Specific Java Exception&lt;/exception&gt;
    &lt;message&gt;Friendly Message&lt;/message&gt;
    &lt;path&gt;/saml-md-api/v1/entities/&lt;/path&gt;

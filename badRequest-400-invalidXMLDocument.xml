@@ -1,0 +1,8 @@
+<Map>
+   <timestamp>1459248207849</timestamp>
+   <status>400</status>
+   <error>Bad Request</error>
+   <exception>uk.ac.jisc.saml.mdman.controller.PayloadConversionException</exception>
+   <message>Could not convert payload to XML Docuemnt</message>
+   <path>/saml-md-api/v1/entities/</path>
+</Map>

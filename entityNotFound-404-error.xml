@@ -1,0 +1,8 @@
+<Map>
+   <timestamp>1458838109865</timestamp>
+   <status>404</status>
+   <error>Not Found</error>
+   <exception>uk.ac.jisc.saml.mdman.controller.EntityNotFoundException</exception>
+   <message>Entity [http://test.entity/] not found</message>
+   <path>/saml-md-api/v1/entities/http%253A%252F%252Ftest.entity%252F</path>
+</Map>

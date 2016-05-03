@@ -1,0 +1,8 @@
+<Map>
+   <timestamp>TIME SINCE EPOCH</timestamp>
+   <status>Http Status Code</status>
+   <error>Http Status</error>
+   <exception>Specific Java Exception</exception>
+   <message>Friendly Message</message>
+   <path>/saml-md-api/v1/entities/</path>
+</Map>

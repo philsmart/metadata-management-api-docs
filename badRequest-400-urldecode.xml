@@ -1,0 +1,8 @@
+<Map>
+   <timestamp>1459245437715</timestamp>
+   <status>400</status>
+   <error>Bad Request</error>
+   <exception>uk.ac.jisc.saml.mdman.util.UrlDecodeEntityIdException</exception>
+   <message>java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - For input string: "2Z"</message>
+   <path>/saml-md-api/v1/entities/https%253A%252Z%252Fidp.kidderminster.ac.uk%252Fidp%252Fshibboleth</path>
+</Map>

@@ -1,7 +1,7 @@
 #%RAML 0.8
 title: saml-md-man-api
 version: v0.9
-baseUri: http://www.jisc.ac.uk/saml-md-api/{version}
+baseUri: http://api.dev.ja.net:8100/saml-md-api/{version}
 
 
 mediaType: application/hal+xml
@@ -61,7 +61,7 @@ mediaType: application/hal+xml
                displayName: Location
                type: string
          400:
-           description: Bad request. For example, can not decode the URL encoded entityId.
+           description: Bad request. For example, can not decode the URL encoded entityId, or the entityId in the payload does not match the request.
            body:
                application/hal+xml:
                    example: !include badRequest-400-urldecode.xml
@@ -77,7 +77,7 @@ mediaType: application/hal+xml
                example: !include generic500Error.xml
 
     delete:
-      description: Deletes a SAML Metadata Descriptor from the repository. Deletes are currenty DEFERRED only. The delete will not occur IMMEDIATLY on the LIVE repository, and will take affect on the LIVE repositories normal update schedule.
+      description: Deletes a SAML Metadata Descriptor from the repository. Currently, deletes are DEFERRED only. The delete will not occur IMMEDIATLY on the LIVE repository, and will take affect on the LIVE repositories normal update schedule.
       responses:
         200:
           description: SAML Metadata Entity Descriptor for entity {entityId} deleted (DEFERRED).

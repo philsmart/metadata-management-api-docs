@@ -1,0 +1,26 @@
+#%RAML 0.8
+title: saml-md-managment-api
+version: v1
+baseUri: http://www.jisc.ac.uk/saml-md-api/v1
+
+/members:
+  description: List all members (that the client has rights over)
+  get:
+    responses:
+      200:
+        description: return all members (the client has rights over)
+        body:
+          application/json:
+            example: |
+              {}
+      401:
+        description: Not authorised to view any members
+  post:
+    description: Adds a new member to the members file
+
+/members/{memberId}:
+  description: A single member resource
+  get:
+
+  put:
+  delete:

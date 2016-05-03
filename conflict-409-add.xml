@@ -1,0 +1,8 @@
+<Map>
+   <timestamp>1459248057379</timestamp>
+   <status>409</status>
+   <error>Conflict</error>
+   <exception>uk.ac.jisc.saml.mdman.entities.DuplicateEntityInRepositoryException</exception>
+   <message>EntityId already exists</message>
+   <path>/saml-md-api/v1/entities/</path>
+</Map>
