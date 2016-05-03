@@ -2,6 +2,7 @@
    <item>
       <elementSource>master</elementSource>
       <entityId>https://idp2.iay.org.uk/idp/shibboleth</entityId>
+      <elementFingerPrint>bd77d5a0e8265f5df66f0623ae728ba3ff5cbf82</elementFingerPrint>
       <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ukfedlabel="http://ukfederation.org.uk/2006/11/label" xmlns:wayf="http://sdss.ac.uk/2006/06/WAYF" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uk000006" entityID="https://idp2.iay.org.uk/idp/shibboleth" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata ../xml/saml-schema-metadata-2.0.xsd         urn:oasis:names:tc:SAML:metadata:algsupport ../xml/sstc-saml-metadata-algsupport-v1.0.xsd         urn:oasis:names:tc:SAML:metadata:attribute ../xml/sstc-metadata-attr.xsd         urn:oasis:names:tc:SAML:metadata:rpi ../xml/saml-metadata-rpi-v1.0.xsd         urn:oasis:names:tc:SAML:metadata:ui ../xml/sstc-saml-metadata-ui-v1.0.xsd         urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol ../xml/sstc-saml-idp-discovery.xsd         urn:oasis:names:tc:SAML:profiles:SSO:request-init ../xml/sstc-request-initiation.xsd         urn:oasis:names:tc:SAML:2.0:assertion ../xml/saml-schema-assertion-2.0.xsd         urn:mace:shibboleth:metadata:1.0 ../xml/shibboleth-metadata-1.0.xsd         http://ukfederation.org.uk/2006/11/label ../xml/uk-fed-label.xsd         http://www.w3.org/2001/04/xmlenc# ../xml/xenc-schema.xsd         http://www.w3.org/2009/xmlenc11# ../xml/xenc-schema-11.xsd         http://www.w3.org/2000/09/xmldsig# ../xml/xmldsig-core-schema.xsd">
     <!--
@@ -127,17 +128,18 @@
       <links>
          <links>
             <rel>deleteEntity</rel>
-            <href>http://localhost:8080/saml-md-api/v1/entities/https%253A%252F%252Fidp2.iay.org.uk%252Fidp%252Fshibboleth</href>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/entities/https%253A%252F%252Fidp2.iay.org.uk%252Fidp%252Fshibboleth</href>
          </links>
          <links>
             <rel>self</rel>
-            <href>http://localhost:8080/saml-md-api/v1/entities/https%253A%252F%252Fidp2.iay.org.uk%252Fidp%252Fshibboleth</href>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/entities/https%253A%252F%252Fidp2.iay.org.uk%252Fidp%252Fshibboleth</href>
          </links>
       </links>
    </item>
    <item>
       <elementSource>master</elementSource>
       <entityId>urn:mace:eduserv.org.uk:athens:provider:tvu.ac.uk</entityId>
+      <elementFingerPrint>6ecbe83371d85fef124577b820c6985ce8d05201</elementFingerPrint>
       <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ukfedlabel="http://ukfederation.org.uk/2006/11/label" xmlns:wayf="http://sdss.ac.uk/2006/06/WAYF" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uk000026" entityID="urn:mace:eduserv.org.uk:athens:provider:tvu.ac.uk" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata ../xml/saml-schema-metadata-2.0.xsd         urn:oasis:names:tc:SAML:metadata:algsupport ../xml/sstc-saml-metadata-algsupport-v1.0.xsd         urn:oasis:names:tc:SAML:metadata:attribute ../xml/sstc-metadata-attr.xsd         urn:oasis:names:tc:SAML:metadata:rpi ../xml/saml-metadata-rpi-v1.0.xsd         urn:oasis:names:tc:SAML:metadata:ui ../xml/sstc-saml-metadata-ui-v1.0.xsd         urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol ../xml/sstc-saml-idp-discovery.xsd         urn:oasis:names:tc:SAML:profiles:SSO:request-init ../xml/sstc-request-initiation.xsd         urn:oasis:names:tc:SAML:2.0:assertion ../xml/saml-schema-assertion-2.0.xsd         urn:mace:shibboleth:metadata:1.0 ../xml/shibboleth-metadata-1.0.xsd         http://ukfederation.org.uk/2006/11/label ../xml/uk-fed-label.xsd         http://www.w3.org/2001/04/xmlenc# ../xml/xenc-schema.xsd         http://www.w3.org/2009/xmlenc11# ../xml/xenc-schema-11.xsd         http://www.w3.org/2000/09/xmldsig# ../xml/xmldsig-core-schema.xsd">
     <!--
@@ -278,13 +280,13 @@
       <links>
          <links>
             <rel>deleteEntity</rel>
-            <href>http://localhost:8080/saml-md-api/v1/entities/urn%253Amace%253Aeduserv.org.uk%253Aathens%253Aprovider%253Atvu.ac.uk</href>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/entities/urn%253Amace%253Aeduserv.org.uk%253Aathens%253Aprovider%253Atvu.ac.uk</href>
          </links>
          <links>
             <rel>self</rel>
-            <href>http://localhost:8080/saml-md-api/v1/entities/urn%253Amace%253Aeduserv.org.uk%253Aathens%253Aprovider%253Atvu.ac.uk</href>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/entities/urn%253Amace%253Aeduserv.org.uk%253Aathens%253Aprovider%253Atvu.ac.uk</href>
          </links>
       </links>
    </item>
-   ....
-</Collection>
+   ...
+ </Collection>

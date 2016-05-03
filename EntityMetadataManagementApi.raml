@@ -1,6 +1,6 @@
 #%RAML 0.8
 title: saml-md-man-api
-version: v0.9
+version: v0.9.1
 baseUri: http://api.dev.ja.net:8100/saml-md-api/{version}
 
 
@@ -42,6 +42,13 @@ mediaType: application/hal+xml
     put:
        description: Updates an existing SAML Entity Descriptor with given {entityId} if it exists.
        headers:
+         X_LAST_RETRIEVED_FINGERPRINT:
+           type: string
+           description: not required. elementFingerPrint is supplied On retrieval of a SAML Entity Descriptor - representing the fingerprint (content hash) of the Entity at that time. If this is supplied as the X_LAST_RETRIEVED_FINGERPRINT, the Entity's current fingerprint will be checked against the input X_LAST_RETRIEVED_FINGERPRINT for similarity. If they are the same, an update will be allowed, if they differ, a ResourceEntityIdDoesNotEqualPayloadEntityIdException is throw to the client - indicating that the entity has been updated by a different client between fetch and update. If the header is not passed, the entity will be updated irrespective of if it was changed during fetch and update.
+           displayName: X_LAST_RETRIEVED_FINGERPRINT
+           required: false
+           example: bd77d5a0e8265f5df66f0623ae728ba3ff5cbf82
+
          X_MDMAN_PRIORITY:
            type: string
            description: This *must* be set when an update to a SAML Entity Descriptor is requested. It represents an update that should trigger an IMMEDIATE change in the LIVE meatadata repository. Or a change that should be DEFERRED to the normal update schedule of the LIVE metadata repository. DEFERRED should be seen as the 'normal' priority request for updates.
@@ -49,6 +56,8 @@ mediaType: application/hal+xml
            required: true
            enum: ["IMMEDIATE","DEFERRED"]
            example: DEFERRED
+
+
        body:
          application/xml:
            example: !include put-entity.xml
