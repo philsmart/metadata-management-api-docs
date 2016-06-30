@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>The Blackpool Sixth Form College</Name>
+    <JoinDate>2008-04-28</JoinDate>
+    <Domains>
+        <Domain>blackpoolsixth.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>blackpoolsixth.ac.uk</PrimaryScope>
+</Member>

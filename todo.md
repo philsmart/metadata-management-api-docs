@@ -1,0 +1,1 @@
+1. Get all entities with filter of ORGNAMES will fail if any of the entities in the entities/ directory are invalid e.g. null content or no EntityDescriptor element. This is because the ORGNAMES pipeline XSLT filter returns a null document which is not allowed by the shib pipeline stage.

@@ -1,0 +1,8 @@
+<Map>
+   <timestamp>1458838109865</timestamp>
+   <status>404</status>
+   <error>Not Found</error>
+   <exception>uk.ac.jisc.saml.mdman.controller.MemberNotFoundException</exception>
+   <message>Member [NAME] not found</message>
+   <path>/saml-md-api/v1/members/name</path>
+</Map>

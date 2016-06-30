@@ -1,0 +1,1703 @@
+<Collection>
+   <item>
+      <memberId>123Doc Education Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>123Doc Education Limited</Name>
+    <JoinDate>2012-10-18</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/123Doc%20Education%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/123Doc%20Education%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>2Simple Software Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>2Simple Software Limited</Name>
+    <JoinDate>2008-04-29</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/2Simple%20Software%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/2Simple%20Software%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>3P Learning Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>3P Learning Limited</Name>
+    <JoinDate>2009-04-16</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/3P%20Learning%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/3P%20Learning%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>3RPlus Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>3RPlus Limited</Name>
+    <JoinDate>2008-02-14</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/3RPlus%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/3RPlus%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>9Star Research, Inc</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>9Star Research, Inc</Name>
+    <JoinDate>2007-02-19</JoinDate>
+    <Domains>
+        <Domain lastVerified="2010-11-30">protectnetwork.org</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/9Star%20Research,%20Inc</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/9Star%20Research,%20Inc</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>ACS International Schools Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>ACS International Schools Limited</Name>
+    <JoinDate>2012-09-19</JoinDate>
+    <Domains>
+        <Domain lastVerified="2012-09-24" source="whois" type="owned" verifiedBy="shopkins">acs-schools.com</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/ACS%20International%20Schools%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/ACS%20International%20Schools%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>ARTstor Inc.</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>ARTstor Inc.</Name>
+    <JoinDate>2014-12-16</JoinDate>
+    <Domains>
+        <Domain lastVerified="2015-03-18" source="whois" type="owned" verifiedBy="pwatson5">artstor.org</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/ARTstor%20Inc.</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/ARTstor%20Inc.</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Abingdon and Witney College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Abingdon and Witney College</Name>
+    <JoinDate>2008-02-13</JoinDate>
+    <Domains>
+        <Domain>abingdon-witney.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>abingdon-witney.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Abingdon%20and%20Witney%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Abingdon%20and%20Witney%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Abintegro Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Abintegro Limited</Name>
+    <JoinDate>2013-04-15</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Abintegro%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Abintegro%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Academic Rights Press Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Academic Rights Press Limited</Name>
+    <JoinDate>2011-03-15</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Academic%20Rights%20Press%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Academic%20Rights%20Press%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Academy for Training and Development Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Academy for Training and Development Limited</Name>
+    <JoinDate>2012-12-17</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Academy%20for%20Training%20and%20Development%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Academy%20for%20Training%20and%20Development%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Access to Music Ltd</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Access to Music Ltd</Name>
+    <JoinDate>2013-06-21</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Access%20to%20Music%20Ltd</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Access%20to%20Music%20Ltd</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Accessible Archives, Inc.</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Accessible Archives, Inc.</Name>
+    <JoinDate>2012-07-04</JoinDate>
+    <Domains>
+        <Domain lastVerified="2012-07-04" source="whois" verifiedBy="steve">accessible.com</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Accessible%20Archives,%20Inc.</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Accessible%20Archives,%20Inc.</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Accrington and Rossendale College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Accrington and Rossendale College</Name>
+    <JoinDate>2008-02-27</JoinDate>
+    <Domains>
+        <Domain>accross.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>accross.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Accrington%20and%20Rossendale%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Accrington%20and%20Rossendale%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Activate Learning</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Activate Learning</Name>
+    <JoinDate>2008-08-18</JoinDate>
+    <Domains>
+        <Domain lastVerified="2013-11-01" source="whois" type="owned" verifiedBy="mwarnoc2">ocvc.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>ocvc.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Activate%20Learning</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Activate%20Learning</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Adam Matthew Digital Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Adam Matthew Digital Limited</Name>
+    <JoinDate>2009-01-23</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Adam%20Matthew%20Digital%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Adam%20Matthew%20Digital%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Adaptable Learning Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Adaptable Learning Limited</Name>
+    <NameComment>trading as FENC</NameComment>
+    <JoinDate>2014-03-20</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-03-20" source="whois" type="owned" verifiedBy="mwarnoc2">adaptablelearning.co.uk</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Adaptable%20Learning%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Adaptable%20Learning%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Adept Scientific plc</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Adept Scientific plc</Name>
+    <JoinDate>2008-05-16</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-07-04" source="whois" type="owned" verifiedBy="mwarnoc2">adeptscience.co.uk</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Adept%20Scientific%20plc</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Adept%20Scientific%20plc</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Adidas International Trading B.V.</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Adidas International Trading B.V.</Name>
+    <JoinDate>2013-06-20</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Adidas%20International%20Trading%20B.V.</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Adidas%20International%20Trading%20B.V.</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Advania hf</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Advania hf</Name>
+    <JoinDate>2015-09-21</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Advania%20hf</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Advania%20hf</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Airhead Education Ltd</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Airhead Education Ltd</Name>
+    <JoinDate>2013-06-20</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Airhead%20Education%20Ltd</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Airhead%20Education%20Ltd</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Aiwip Ltd</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Aiwip Ltd</Name>
+    <JoinDate>2015-07-30</JoinDate>
+    <Domains>
+        <Domain lastVerified="2015-09-15" source="whois" type="owned" verifiedBy="pwatson5">aiwip.com</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Aiwip%20Ltd</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Aiwip%20Ltd</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Akari Software Ltd</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Akari Software Ltd</Name>
+    <JoinDate>2015-10-05</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Akari%20Software%20Ltd</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Akari%20Software%20Ltd</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Alacrity Foundation</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Alacrity Foundation</Name>
+    <JoinDate>2013-08-09</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Alacrity%20Foundation</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Alacrity%20Foundation</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Alexander Street Press, LLC</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Alexander Street Press, LLC</Name>
+    <JoinDate>2008-06-06</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-11-19" source="whois" type="owned" verifiedBy="mwarnoc2">alexanderstreet.com</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Alexander%20Street%20Press,%20LLC</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Alexander%20Street%20Press,%20LLC</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Arts University Bournemouth</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Arts University Bournemouth</Name>
+    <JoinDate>2008-08-18</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-08-27" source="whois" type="owned" verifiedBy="shopkins">aib.ac.uk</Domain>
+        <Domain lastVerified="2014-08-27" source="whois" type="owned" verifiedBy="shopkins">aucb.ac.uk</Domain>
+        <Domain lastVerified="2014-08-27" source="whois" type="owned" verifiedBy="shopkins">aub.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>aub.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Arts%20University%20Bournemouth</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Arts%20University%20Bournemouth</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Ashton Sixth Form College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Ashton Sixth Form College</Name>
+    <JoinDate>2008-02-26</JoinDate>
+    <Domains>
+        <Domain>asfc.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>asfc.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Ashton%20Sixth%20Form%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Ashton%20Sixth%20Form%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Askham Bryan College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Askham Bryan College</Name>
+    <JoinDate>2008-04-13</JoinDate>
+    <Domains>
+        <Domain>askham-bryan.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>askham-bryan.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Askham%20Bryan%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Askham%20Bryan%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Aspiration Training Ltd</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Aspiration Training Ltd</Name>
+    <JoinDate>2012-11-29</JoinDate>
+    <Domains>
+        <Domain lastVerified="2013-01-09" source="whois" type="owned" verifiedBy="shopkins">aspirationtraining.com</Domain>
+    </Domains>
+    <PrimaryScope>aspirationtraining.com</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Aspiration%20Training%20Ltd</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Aspiration%20Training%20Ltd</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Assessment and Qualifications Alliance</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Assessment and Qualifications Alliance</Name>
+    <JoinDate>2007-07-03</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Assessment%20and%20Qualifications%20Alliance</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Assessment%20and%20Qualifications%20Alliance</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Association for Computing Machinery, Inc.</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Association for Computing Machinery, Inc.</Name>
+    <JoinDate>2011-05-27</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Association%20for%20Computing%20Machinery,%20Inc.</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Association%20for%20Computing%20Machinery,%20Inc.</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Aston University</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Aston University</Name>
+    <JoinDate>2008-04-18</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-04-25" source="whois" type="owned" verifiedBy="mwarnoc2">aston.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>aston.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Aston%20University</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Aston%20University</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Atomwide Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Atomwide Limited</Name>
+    <JoinDate>2007-01-04</JoinDate>
+    <Domains>
+        <Domain lastVerified="2013-12-18" source="whois" type="owned" verifiedBy="mwarnoc2">atomwide.com</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Atomwide%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Atomwide%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Atypon Systems, Inc</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Atypon Systems, Inc</Name>
+    <JoinDate>2007-10-26</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-11-19" source="whois" type="owned" verifiedBy="mwarnoc2">literatumonline.com</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Atypon%20Systems,%20Inc</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Atypon%20Systems,%20Inc</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Autology World Ltd</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Autology World Ltd</Name>
+    <JoinDate>2009-10-21</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Autology%20World%20Ltd</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Autology%20World%20Ltd</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Aylesbury College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Aylesbury College</Name>
+    <JoinDate>2011-10-05</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Aylesbury%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Aylesbury%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Ayrshire College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Ayrshire College</Name>
+    <JoinDate>2008-02-12</JoinDate>
+    <Domains>
+        <Domain>ayrcoll.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>ayrcoll.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Ayrshire%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Ayrshire%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>B.K.W. Investments Pty. Ltd</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>B.K.W. Investments Pty. Ltd</Name>
+    <JoinDate>2008-08-08</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/B.K.W.%20Investments%20Pty.%20Ltd</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/B.K.W.%20Investments%20Pty.%20Ltd</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>BBC Worldwide Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>BBC Worldwide Limited</Name>
+    <JoinDate>2007-10-24</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/BBC%20Worldwide%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/BBC%20Worldwide%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>BMJ Publishing Group Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>BMJ Publishing Group Limited</Name>
+    <JoinDate>2009-07-31</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-07-29" source="whois" type="owned" verifiedBy="mwarnoc2">bmj.com</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/BMJ%20Publishing%20Group%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/BMJ%20Publishing%20Group%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Backpages Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Backpages Limited</Name>
+    <JoinDate>2008-03-14</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Backpages%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Backpages%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bam Agency Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Bam Agency Limited</Name>
+    <JoinDate>2010-09-30</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bam%20Agency%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bam%20Agency%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bangor University</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Bangor University</Name>
+    <JoinDate>2007-11-19</JoinDate>
+    <Domains>
+        <Domain>bangor.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bangor.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bangor%20University</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bangor%20University</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Barking and Dagenham College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Barking and Dagenham College</Name>
+    <JoinDate>2008-04-30</JoinDate>
+    <Domains>
+        <Domain lastVerified="2011-10-07" source="whois" type="owned" verifiedBy="steve">barkingcollege.ac.uk</Domain>
+        <Domain lastVerified="2011-10-07" source="whois" type="owned" verifiedBy="steve">barkingdagenhamcollege.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>barkingdagenhamcollege.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barking%20and%20Dagenham%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barking%20and%20Dagenham%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Barnet and Southgate College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Barnet and Southgate College</Name>
+    <JoinDate>2009-03-16</JoinDate>
+    <Domains>
+        <Domain lastVerified="2013-01-15" source="whois" type="owned" verifiedBy="astuart4">barnet.ac.uk</Domain>
+        <Domain lastVerified="2013-01-15" source="whois" type="owned" verifiedBy="astuart4">barnetsouthgate.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>barnetsouthgate.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barnet%20and%20Southgate%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barnet%20and%20Southgate%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Barnfield Education Services Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Barnfield Education Services Limited</Name>
+    <JoinDate>2013-10-21</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-01-03" source="nonce" type="owned" verifiedBy="jmurison">barnfield.ac.uk</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barnfield%20Education%20Services%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barnfield%20Education%20Services%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Barnsley College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Barnsley College</Name>
+    <JoinDate>2008-08-05</JoinDate>
+    <Domains>
+        <Domain>barnsley.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>barnsley.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barnsley%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barnsley%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Barrow-in-Furness Sixth Form College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Barrow-in-Furness Sixth Form College</Name>
+    <JoinDate>2008-07-11</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barrow-in-Furness%20Sixth%20Form%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barrow-in-Furness%20Sixth%20Form%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Barton Peveril College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Barton Peveril College</Name>
+    <JoinDate>2008-10-21</JoinDate>
+    <Domains>
+        <Domain>barton.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>barton.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barton%20Peveril%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Barton%20Peveril%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Basingstoke College of Technology</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Basingstoke College of Technology</Name>
+    <JoinDate>2007-12-21</JoinDate>
+    <Domains>
+        <Domain>bcot.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bcot.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Basingstoke%20College%20of%20Technology</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Basingstoke%20College%20of%20Technology</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bath College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Bath College</Name>
+    <JoinDate>2008-05-16</JoinDate>
+    <Domains>
+        <Domain>citybathcoll.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>citybathcoll.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bath%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bath%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bath Spa University</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Bath Spa University</Name>
+    <JoinDate>2008-04-23</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-06-23" source="whois" type="owned" verifiedBy="mwarnoc2">bathspa.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bathspa.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bath%20Spa%20University</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bath%20Spa%20University</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Beaumont College - A Scope College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Beaumont College - A Scope College</Name>
+    <JoinDate>2011-05-05</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Beaumont%20College%20-%20A%20Scope%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Beaumont%20College%20-%20A%20Scope%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bedford College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Bedford College</Name>
+    <JoinDate>2008-06-23</JoinDate>
+    <Domains>
+        <Domain>bedford.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bedford.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bedford%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bedford%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Begell House Inc.</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Begell House Inc.</Name>
+    <JoinDate>2009-03-27</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Begell%20House%20Inc.</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Begell%20House%20Inc.</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Belfast Metropolitan College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Belfast Metropolitan College</Name>
+    <JoinDate>2008-02-25</JoinDate>
+    <Domains>
+        <Domain lastVerified="2013-10-15" source="whois" type="owned" verifiedBy="mwarnoc2">belfastmet.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>belfastmet.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Belfast%20Metropolitan%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Belfast%20Metropolitan%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Berkshire College of Agriculture</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Berkshire College of Agriculture</Name>
+    <JoinDate>2010-10-14</JoinDate>
+    <Domains>
+        <Domain lastVerified="2012-03-08" source="whois" type="owned" verifiedBy="kcampbell">bca.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bca.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Berkshire%20College%20of%20Agriculture</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Berkshire%20College%20of%20Agriculture</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Beth Shalom Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Beth Shalom Limited</Name>
+    <JoinDate>2009-01-23</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Beth%20Shalom%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Beth%20Shalom%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bexhill College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Bexhill College</Name>
+    <JoinDate>2013-08-30</JoinDate>
+    <Domains>
+        <Domain lastVerified="2013-11-07" source="whois" type="owned" verifiedBy="shopkins">bexhillcollege.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bexhillcollege.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bexhill%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bexhill%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bexley College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Bexley College</Name>
+    <JoinDate>2008-03-27</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bexley%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bexley%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bilborough Sixth Form College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Bilborough Sixth Form College</Name>
+    <JoinDate>2008-11-21</JoinDate>
+    <Domains>
+        <Domain>bilborough.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bilborough.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bilborough%20Sixth%20Form%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bilborough%20Sixth%20Form%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Biomed Central Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Biomed Central Limited</Name>
+    <JoinDate>2008-04-22</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Biomed%20Central%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Biomed%20Central%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Biotechnology and Biological Sciences Research Council</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Biotechnology and Biological Sciences Research Council</Name>
+    <JoinDate>2008-08-01</JoinDate>
+    <Domains>
+        <Domain>bbsrc.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bbsrc.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Biotechnology%20and%20Biological%20Sciences%20Research%20Council</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Biotechnology%20and%20Biological%20Sciences%20Research%20Council</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Birkbeck College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Birkbeck College</Name>
+    <JoinDate>2008-04-02</JoinDate>
+    <Domains>
+        <Domain>bbk.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bbk.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birkbeck%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birkbeck%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Birkenhead Sixth Form College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Birkenhead Sixth Form College</Name>
+    <JoinDate>2008-05-30</JoinDate>
+    <Domains>
+        <Domain>bsfc.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bsfc.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birkenhead%20Sixth%20Form%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birkenhead%20Sixth%20Form%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Birmingham City Council</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Birmingham City Council</Name>
+    <JoinDate>2008-05-18</JoinDate>
+    <Domains>
+        <Domain lastVerified="2011-02-23" source="eduBase" sourceURL="http://www.edubase.gov.uk/search.xhtml" type="synthetic" verifiedBy="shopkins">330.eng.ukfederation.org.uk</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birmingham%20City%20Council</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birmingham%20City%20Council</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Birmingham City University</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Birmingham City University</Name>
+    <JoinDate>2008-03-12</JoinDate>
+    <Domains>
+        <Domain>EDITTED</Domain>
+    </Domains>
+    <PrimaryScope>bcu.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birmingham%20City%20University</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birmingham%20City%20University</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Birmingham Metropolitan College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Birmingham Metropolitan College</Name>
+    <JoinDate>2010-04-23</JoinDate>
+    <Domains>
+        <Domain lastVerified="2010-11-30">mbc.ac.uk</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birmingham%20Metropolitan%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Birmingham%20Metropolitan%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bishop Auckland College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Bishop Auckland College</Name>
+    <JoinDate>2011-02-08</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bishop%20Auckland%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bishop%20Auckland%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bishop Burton College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Bishop Burton College</Name>
+    <JoinDate>2008-08-19</JoinDate>
+    <Domains>
+        <Domain>bishopb-college.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bishopb-college.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bishop%20Burton%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bishop%20Burton%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bishop Grosseteste University</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>Bishop Grosseteste University</Name>
+    <JoinDate>2007-12-19</JoinDate>
+    <Domains>
+        <Domain>bishopg.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bishopg.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bishop%20Grosseteste%20University</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bishop%20Grosseteste%20University</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Blackburn College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Blackburn College</Name>
+    <JoinDate>2008-01-29</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-04-25" source="whois" type="owned" verifiedBy="mwarnoc2">blackburn.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>blackburn.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Blackburn%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Blackburn%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Blackburn with Darwen Borough Council</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Blackburn with Darwen Borough Council</Name>
+    <JoinDate>2010-06-10</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Blackburn%20with%20Darwen%20Borough%20Council</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Blackburn%20with%20Darwen%20Borough%20Council</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Blackpool and The Fylde College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Blackpool and The Fylde College</Name>
+    <JoinDate>2007-11-20</JoinDate>
+    <Domains>
+        <Domain>blackpool.ac.uk</Domain>
+        <Domain lastVerified="2015-10-19" source="whois" type="owned" verifiedBy="pwatson5">lythamsixth.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>blackpool.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Blackpool%20and%20The%20Fylde%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Blackpool%20and%20The%20Fylde%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>BlikBook Ltd</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>BlikBook Ltd</Name>
+    <JoinDate>2013-07-15</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/BlikBook%20Ltd</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/BlikBook%20Ltd</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bloomsbury Publishing Plc</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Bloomsbury Publishing Plc</Name>
+    <JoinDate>2012-03-09</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bloomsbury%20Publishing%20Plc</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bloomsbury%20Publishing%20Plc</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Boardworks Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Boardworks Limited</Name>
+    <JoinDate>2011-02-14</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Boardworks%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Boardworks%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bolton College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Bolton College</Name>
+    <JoinDate>2008-07-08</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-01-23" source="whois" type="owned" verifiedBy="astuart4">boltoncc.ac.uk</Domain>
+        <!-- Bolton Community College changed name to Bolton College in 2010. Whois retains old college name 2014-01-23 -->
+        <Domain>bolton-community-college.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bolton-community-college.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bolton%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bolton%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>Bolton Sixth Form College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>Bolton Sixth Form College</Name>
+    <JoinDate>2010-11-16</JoinDate>
+    <Domains>
+        <Domain>bolton-sfc.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>bolton-sfc.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bolton%20Sixth%20Form%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/Bolton%20Sixth%20Form%20College</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>The Academic Library Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>The Academic Library Limited</Name>
+    <JoinDate>2008-05-15</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Academic%20Library%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Academic%20Library%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>The Agri-Food and Biosciences Institute</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>The Agri-Food and Biosciences Institute</Name>
+    <JoinDate>2009-07-30</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Agri-Food%20and%20Biosciences%20Institute</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Agri-Food%20and%20Biosciences%20Institute</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>The Ashridge (Bonar Law Memorial) Trust</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usesAthensIdP="true">
+    <Name>The Ashridge (Bonar Law Memorial) Trust</Name>
+    <JoinDate>2014-12-10</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-12-10" source="whois" type="owned" verifiedBy="mwarnoc2">ashridge.org.uk</Domain>
+    </Domains>
+    <PrimaryScope>ashridge.org.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Ashridge%20(Bonar%20Law%20Memorial)%20Trust</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Ashridge%20(Bonar%20Law%20Memorial)%20Trust</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>The Beans Group Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>The Beans Group Limited</Name>
+    <JoinDate>2013-07-18</JoinDate>
+    <Domains>
+        <Domain lastVerified="2014-09-02" source="whois" type="owned" verifiedBy="shopkins">studentbeans.com</Domain>
+    </Domains>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Beans%20Group%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Beans%20Group%20Limited</href>
+         </links>
+      </links>
+   </item>
+   <item>
+      <memberId>The Blackpool Sixth Form College</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>The Blackpool Sixth Form College</Name>
+    <JoinDate>2008-04-28</JoinDate>
+    <Domains>
+        <Domain>blackpoolsixth.ac.uk</Domain>
+    </Domains>
+    <PrimaryScope>blackpoolsixth.ac.uk</PrimaryScope>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Blackpool%20Sixth%20Form%20College</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/The%20Blackpool%20Sixth%20Form%20College</href>
+         </links>
+      </links>
+   </item>
+</Collection>

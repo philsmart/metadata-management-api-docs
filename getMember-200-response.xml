@@ -1,0 +1,20 @@
+<Collection>
+   <item>
+      <memberId>2Simple Software Limited</memberId>
+      <domElementSerialised><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Member xmlns="http://ukfederation.org.uk/2007/01/members" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>2Simple Software Limited</Name>
+    <JoinDate>2008-04-29</JoinDate>
+</Member>]]></domElementSerialised>
+      <links>
+         <links>
+            <rel>deleteEntity</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/2Simple%20Software%20Limited</href>
+         </links>
+         <links>
+            <rel>self</rel>
+            <href>http://localhost:8100/saml-md-api/v0.9.1/members/2Simple%20Software%20Limited</href>
+         </links>
+      </links>
+   </item>
+</Collection>
