@@ -1,16 +1,16 @@
 #%RAML 0.8
 title: saml-md-man-api
-version: v0.9.1
-baseUri: http://api.dev.ja.net:8100/saml-md-api/{version}
+version: v0.9.2
+baseUri: https://api.dev.ja.net:8100/saml-md-api/{version}
 
 
 documentation:
 - title: Approval API Usage
   content: !include approvalApiUsage.md
+- title: Authentication
+  content: !include authentication.md
 - title: TODO
   content: !include todo.md
-- title: Authentication
-  content: todo
 
 mediaType: application/hal+xml
 /entities:
@@ -28,7 +28,16 @@ mediaType: application/hal+xml
     get:
       description: Returns the SAML Metadata Descriptor relating to the EntityId if it exists. Of note, certain XML Elements are removed before being returned to the caller e.g. XML ID, and certain MDRPI elements. These are added back automatically on add or update.
 
+      headers:
+        X_ORGID:
+          type: string
+          description: not required, but assumes a default \* wildcard (ALL) if not supplied. Represents the organisation identifier of the organisation this request is acting on behalf of. The supplied organisation id is matched during authentication to those which the user (HTTP basic authentication) has rights over, if the user does not have rights over that organisation, a HTTP 401 Unathorized response will be given. The user can also request an ALL (\*) wildcard, which will match any entity. The results of the request will be filtered by those which the user has rights over.
+          required: false
+          example: ukforg44 or *
+
       responses:
+        401:
+          description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
         404:
           description: Entity has not been found in the repository
           body:
@@ -72,6 +81,8 @@ mediaType: application/hal+xml
          application/xml:
            example: !include put-entity.xml
        responses:
+         401:
+           description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
          200:
            description: SAML Metadata Entity Descriptor for entity {entityId} updated
            headers:
@@ -98,6 +109,8 @@ mediaType: application/hal+xml
     delete:
       description: Deletes a SAML Metadata Descriptor from the repository. Currently, deletes are DEFERRED only. The delete will not occur IMMEDIATLY on the LIVE repository, and will take affect on the LIVE repository's normal update schedule.
       responses:
+        401:
+          description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
         200:
           description: SAML Metadata Entity Descriptor for entity {entityId} deleted (DEFERRED).
         500:
@@ -110,7 +123,6 @@ mediaType: application/hal+xml
             body:
                 application/hal+xml:
                   example: !include badRequest-400-urldecode.xml
-
         404:
             description: Entity has not been found in the repository
             body:
@@ -120,6 +132,12 @@ mediaType: application/hal+xml
     displayName: Collection of SAML Metadata Entities
     description: A Collection of all known SAML Metadata Entity Descriptors. Returned as a list of indivudual items. Of note, certain XML Elements are removed for each Entity before being returned to the caller e.g. XML ID, and certain MDRPI elements. These are added back automatically on add or update.
     get:
+      headers:
+        X_ORGID:
+          type: string
+          description: not required, but assumes a default \* wildcard (ALL) if not supplied. Represents the organisation identifier of the organisation this request is acting on behalf of. The supplied organisation id is matched during authentication to those which the user (HTTP basic authentication) has rights over, if the user does not have rights over that organisation, a HTTP 401 Unathorized response will be given. The user can also request an ALL (\*) wildcard, which will match any entity. The results of the request will be filtered by those which the user has rights over.
+          required: false
+          example: ukforg44 or *
       queryParameters:
         filter:
           displayName: filter=ALL
@@ -127,6 +145,8 @@ mediaType: application/hal+xml
           required: false
           description: Optional. Can be either ALL or ORGNAMES. By not specifying the parameter, ALL is assumed. ALL retrives all Elements of an EntityDescriptor, ORGNAMES returns only the EntityDescriptor and child Organization Element.
       responses:
+        401:
+          description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
         500:
           description: Generic server processing error.
         200:
@@ -141,6 +161,8 @@ mediaType: application/hal+xml
         application/xml:
           example: !include put-entity.xml
       responses:
+          401:
+            description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
           200:
             headers:
               Location:
@@ -167,22 +189,24 @@ mediaType: application/hal+xml
 
 
 /members:
-                  description: API for handling UK Federation members.
-                  displayName: UK Federation Members
-                  /{memberId}:
-                    description: Represents a single UK Federation Member. The memberId URI parameter must be URL encoded.
-                    displayName: UK Federation Member
+                  description: API for handling UK Federation Members or DomainOwners (Organisations).
+                  displayName: UK Federation Members and DomainOwners
+                  /{orgId}:
+                    description: Represents a single UK Federation Member or DomainOwner. The orgId URI parameter must be URL encoded.
+                    displayName: UK Federation Member or DomainOwner
                     uriParameters:
-                      memberId:
-                        description: The Unique Member ID of a member. This *must* be URL encoded.
-                        displayName: memberId.
+                      orgId:
+                        description: The Unique ID of a member/DomainOwner. This *must* be URL encoded.
+                        displayName: orgId.
                         type: string
                         required: true
                     get:
-                      description: Returns the Member fragment relating to the memberId if it exists.
+                      description: Returns the Member/DomainOwner fragment relating to the orgId if it exists.
                       responses:
+                        401:
+                          description: Unauthorized. The username and password are incorrect or not supplied.
                         404:
-                          description: Member has not been found in the repository
+                          description: Member/DomainOwner has not been found in the repository
                           body:
                             application/hal+xml:
                               example: !include memberNotFound-404-error.xml
@@ -202,17 +226,19 @@ mediaType: application/hal+xml
                               example: !include generic500Error.xml
 
                     put:
-                       description: Updates an existing UK Federation member with given {memberId} if it exists. This is a complete replacement, not a patching operation of certain attributes.
+                       description: Updates an existing UK Federation Member/DomainOwner with given {orgId} if it exists. This is a complete replacement, not a patching operation of certain attributes.
 
                        body:
                          application/xml:
                            example: !include put-member.xml
                        responses:
+                         401:
+                           description: Unauthorized. The username and password are incorrect or not supplied.
                          200:
                            description: UK Federation member {memberId} updated
                            headers:
                              Location:
-                               description: The HTTP redirect URI location of the updated Member resource.
+                               description: The HTTP redirect URI location of the updated Member/DomainOwner resource.
                                displayName: Location
                                type: string
                          400:
@@ -221,7 +247,7 @@ mediaType: application/hal+xml
                                application/hal+xml:
                                    example: !include badRequest-400-urldecode.xml
                          404:
-                            description: Entity has not been found in the repository
+                            description: Member/DomainOwner has not been found in the repository
                             body:
                                 application/hal+xml:
                                     example: !include memberNotFound-404-error.xml
@@ -232,10 +258,12 @@ mediaType: application/hal+xml
                                example: !include generic500Error.xml
 
                     delete:
-                      description: Deletes a UK Federation member from the repository immediatly.
+                      description: Deletes a UK Federation Member/DomainOwner from the repository immediatly.
                       responses:
+                        401:
+                          description: Unauthorized. The username and password are incorrect or not supplied.
                         200:
-                          description: UK Federation Member information for {memberId} deleted.
+                          description: UK Federation Member/DomainOwner information for {orgId} deleted.
                         500:
                             description: Generic server processing error - see error description in Body for details.
                             body:
@@ -253,28 +281,32 @@ mediaType: application/hal+xml
                                application/hal+xml:
                                         example: !include memberNotFound-404-error.xml
                   /:
-                    displayName: Collection of UK Federation Members
-                    description: A Collection of all known UK Federation Members. Returned as a list of indivudual members.
+                    displayName: Collection of UK Federation Members/DomainOwners
+                    description: A Collection of all known UK Federation Members/DomainOwners. Returned as a list of indivudual Members/DomainOwners.
                     get:
                       responses:
+                        401:
+                          description: Unauthorized. The username and password are incorrect or not supplied.
                         500:
                           description: Generic server processing error.
                         200:
-                          description: All Known UK Federation members  returned.
+                          description: All Known UK Federation Members/DomainOwners returned.
                           body:
                             application/hal+xml:
                               example: !include getMembers-200-response.xml
 
                     post:
-                      description: Adds a new UK Federation Member to the repository - subject to validation. Any validation errors are returned to the client.
+                      description: Adds a new UK Federation Member/DomainOwner to the repository - subject to validation. Any validation errors are returned to the client.
                       body:
                         application/xml:
                           example: !include put-member.xml
                       responses:
+                          401:
+                            description: Unauthorized. The username and password are incorrect or not supplied.
                           200:
                             headers:
                               Location:
-                                description: The HTTP redirect URI location of the newly created UK Federation member resource.
+                                description: The HTTP redirect URI location of the newly created UK Federation Member/DomainOwner resource.
                                 displayName: Location
                                 type: string
                           500:
@@ -288,26 +320,28 @@ mediaType: application/hal+xml
                               application/hal+xml:
                                 example: !include badRequest-400-invalidXMLDocument.xml
                           409:
-                            description: Conflict, memberId already exists, entity descriptor could not be added to the repository.
+                            description: Conflict, orgId already exists, Member/DomainOwner could not be added to the repository.
                             body:
                               application/hal+xml:
                                 example: !include conflict-409-add.xml
 
 /approvals:
-  description: API for handling the correct storage of SAML Entity Descriptors that require approval.
-  displayName: SAML Entity Descriptor Approvals
-  /{entityId}:
-    description: Reference an approval by the entityId of the SAML Entity Descriptor.
-    displayName: A SAML Entity Descriptor that needs approval
+  description: API for handling the correct storage of EntityDescriptor/Member/DomainOwners that require approval.
+  displayName: SAML EntityDescriptor/Member/DomainOwner Approvals
+  /{identifier}:
+    description: Reference an approval by its identifier.
+    displayName: An EntityDescriptor/Member/DomainOwner that needs approval
     uriParameters:
-      entityId:
-        description: The Unique Entity ID of a SAML entity. This *must* be URL encoded.
-        displayName: entityId.
+      identifier:
+        description: The Unique ID of a EntityDescriptor/Member/DomainOwner. This *must* be URL encoded.
+        displayName: identifier.
         type: string
         required: true
     get:
-       description: Returns the SAML Entity Descriptor relating to the EntityId if it exists in the approvals queue. Also returns a list of validation errors as determine at time of retrieval. If no errors are given, it can be assumed the Entity does not require approval - a subsequent call to delete it from the approvals queue should be made.
+       description: Returns the EntityDescriptor/Member/DomainOwner relating to the identifier if it exists in the approvals queue. Also returns a list of validation errors as determine at time of retrieval. If no errors are given, it can be assumed the Entity does not require approval - a subsequent call to delete it from the approvals queue should be made.
        responses:
+        401:
+           description: Unauthorized. The username and password are incorrect or not supplied. The user does not have role ADMIN.
         404:
           description: Entity has not been found in the repository
           body:
@@ -328,8 +362,10 @@ mediaType: application/hal+xml
             application/hal+xml:
               example: !include generic500Error.xml
     delete:
-              description: Deletes a SAML Entity Descriptor from the approvals queue.
+              description: Deletes an EntityDescriptor/Member/DomainOwner from the approvals queue.
               responses:
+                401:
+                   description: Unauthorized. The username and password are incorrect or not supplied. The user does not have role ADMIN.
                 200:
                   description: SAML Metadata Entity Descriptor for entity {entityId} deleted from approvals queue.
                 500:
@@ -350,15 +386,17 @@ mediaType: application/hal+xml
                                 example: !include entityNotFound-404-error.xml
   /:
     post:
-      description: Adds an SAML Entity Descriptor to the approvals queue. Overwrites any previous Entity Descriptor in the queue with same entityId.
+      description: Adds an EntityDescriptor/Member/DomainOwner to the approvals queue. Overwrites any previous type in the queue with the same identifier.
       body:
         application/xml:
           example: !include put-entity.xml
       responses:
+             401:
+               description: Unauthorized. The username and password are incorrect or not supplied. The user does not have role ADMIN.
              200:
                headers:
                  Location:
-                   description: The HTTP redirect URI location of the newly created SAML Entity Descriptor resource in the approvals queue.
+                   description: The HTTP redirect URI location of the newly created Element resource in the approvals queue.
                    displayName: Location
                    type: string
              500:
@@ -372,8 +410,10 @@ mediaType: application/hal+xml
                  application/hal+xml:
                    example: !include badRequest-400-invalidXMLDocument.xml
     get:
-      description: Returns all SAML Entity Descriptors on the approvals queue. For each Entity, a list of validation errors are given (as determine at time of retrieval). If no errors are given, it can be assumed the Entity does not require approval - a subsequent call to delete it from the approvals queue should be made.
+      description: Returns all EntityDescriptors/Members/DomainOwner on the approvals queue. For each type, a list of validation errors are given (as determine at time of retrieval). If no errors are given, it can be assumed the type does not require approval - a subsequent call to delete it from the approvals queue should be made.
       responses:
+                    401:
+                      description: Unauthorized. The username and password are incorrect or not supplied. The user does not have role ADMIN.
                     500:
                       description: Generic server processing error.
                     200:

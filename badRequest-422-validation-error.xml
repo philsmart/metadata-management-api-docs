@@ -1,0 +1,14 @@
+<Map>
+   <path>/saml-md-api/v0.9.2/entities</path>
+   <validationErrors>
+      <error>
+         <id>https://idp2.iay.org.uk/idp/shibboleth5555</id>
+         <message>Scope [diay.org.uk] for EntityDescriptor https://idp2.iay.org.uk/idp/shibboleth5555 with path [/null/EntityDescriptor/Extensions/Scope] not authorised</message>
+         <validationComponentId>checkEntityScope</validationComponentId>
+         <errorType>DomainApproval</errorType>
+         <requiresApproval>true</requiresApproval>
+      </error>
+   </validationErrors>
+   <timestamp>1472205061057</timestamp>
+   <status>422</status>
+</Map>
