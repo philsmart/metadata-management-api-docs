@@ -36,6 +36,7 @@ mediaType: application/hal+xml
           example: ukforg44 or *
 
       responses:
+
         401:
           description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
         404:
@@ -81,6 +82,10 @@ mediaType: application/hal+xml
          application/xml:
            example: !include put-entity.xml
        responses:
+         422:
+           description: Bad request, unprocessable entity. Caused by semantic validation errors in the input.
+           body:
+              example: !include badRequest-422-validation-error.xml
          401:
            description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
          200:
@@ -105,6 +110,7 @@ mediaType: application/hal+xml
            body:
              application/hal+xml:
                example: !include generic500Error.xml
+
 
     delete:
       description: Deletes a SAML Metadata Descriptor from the repository. Currently, deletes are DEFERRED only. The delete will not occur IMMEDIATLY on the LIVE repository, and will take affect on the LIVE repository's normal update schedule.
@@ -161,6 +167,10 @@ mediaType: application/hal+xml
         application/xml:
           example: !include put-entity.xml
       responses:
+          422:
+           description: Bad request, unprocessable entity. Caused by semantic validation errors in the input.
+           body:
+             example: !include badRequest-422-validation-error.xml
           401:
             description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
           200:
@@ -232,6 +242,10 @@ mediaType: application/hal+xml
                          application/xml:
                            example: !include put-member.xml
                        responses:
+                         422:
+                          description: Bad request, unprocessable entity. Caused by semantic validation errors in the input.
+                          body:
+                           example: !include badRequest-422-validation-error.xml
                          401:
                            description: Unauthorized. The username and password are incorrect or not supplied.
                          200:
@@ -301,6 +315,10 @@ mediaType: application/hal+xml
                         application/xml:
                           example: !include put-member.xml
                       responses:
+                          422:
+                           description: Bad request, unprocessable entity. Caused by semantic validation errors in the input.
+                           body:
+                            example: !include badRequest-422-validation-error.xml
                           401:
                             description: Unauthorized. The username and password are incorrect or not supplied.
                           200:
