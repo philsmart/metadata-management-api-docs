@@ -214,6 +214,14 @@ mediaType: application/hal+xml
                         required: true
                     get:
                       description: Returns the Member/DomainOwner fragment relating to the orgId if it exists.
+
+                      headers:
+                       X_ORIGID:
+                        type: string
+                        description: not required, but assumes a default \* wildcard (ALL) if not supplied. Represents the organisation identifier of the organisation this request is acting on behalf of. The supplied organisation id is matched during authentication to those which the user (HTTP basic authentication) has rights over, if the user does not have rights over that organisation, a HTTP 401 Unathorized response will be given. The user can also request an ALL (\*) wildcard, which will match any entity. The results of the request will be filtered by those which the user has rights over.
+                        required: false
+                        example: ukforg44 or *
+
                       responses:
                         401:
                           description: Unauthorized. The username and password are incorrect or not supplied.
