@@ -308,7 +308,15 @@ mediaType: application/hal+xml
                     displayName: Collection of UK Federation Members/DomainOwners
                     description: A Collection of all known UK Federation Members/DomainOwners. Returned as a list of indivudual Members/DomainOwners.
                     get:
-                      responses:
+                     description: Get all members/domainowners
+                     headers:
+                        X_ORGID:
+                         type: string
+                         description: vf
+                         required: false
+                         example: ukforg44 or *
+
+                     responses:
                         401:
                           description: Unauthorized. The username and password are incorrect or not supplied.
                         500:
