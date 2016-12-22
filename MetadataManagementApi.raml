@@ -64,6 +64,9 @@ mediaType: application/hal+xml
     put:
        description: Updates an existing SAML Entity Descriptor with given {entityId} if it exists.
        headers:
+         X_PERP:
+          type: string
+          description: an identifiable string of the perpetrator of the request, for example email address. Used for audit and approvals.
          X_LAST_RETRIEVED_FINGERPRINT:
            type: string
            description: not required. elementFingerPrint is supplied On retrieval of a SAML Entity Descriptor - representing the fingerprint (content hash) of the Entity at that time. If this is supplied as the X_LAST_RETRIEVED_FINGERPRINT, the Entity's current fingerprint will be checked against the input X_LAST_RETRIEVED_FINGERPRINT for similarity. If they are the same, an update will be allowed, if they differ, a ResourceEntityIdDoesNotEqualPayloadEntityIdException is throw to the client - indicating that the entity has been updated by a different client between fetch and update. If the header is not passed, the entity will be updated irrespective of if it was changed during fetch and update.
@@ -116,6 +119,10 @@ mediaType: application/hal+xml
 
     delete:
       description: Deletes a SAML Metadata Descriptor from the repository. Currently, deletes are DEFERRED only. The delete will not occur IMMEDIATLY on the LIVE repository, and will take affect on the LIVE repository's normal update schedule.
+      headers:
+          X_PERP:
+           type: string
+           description: an identifiable string of the perpetrator of the request, for example email address. Used for audit and approvals.
       responses:
         401:
           description: Unauthorized. The username and password are incorrect or not supplied, or the user does not have rights over the supplied X_ORGID header
@@ -165,6 +172,10 @@ mediaType: application/hal+xml
 
     post:
       description: Adds a new SAML Entity Descriptor fragment to the repository - subject to validation. Any validation errors are returned to the client.
+      headers:
+          X_PERP:
+           type: string
+           description: an identifiable string of the perpetrator of the request, for example email address. Used for audit and approvals.
       body:
         application/xml:
           example: !include put-entity.xml
@@ -247,7 +258,10 @@ mediaType: application/hal+xml
 
                     put:
                        description: Updates an existing UK Federation Member/DomainOwner with given {orgId} if it exists. This is a complete replacement, not a patching operation of certain attributes.
-
+                       headers:
+                         X_PERP:
+                          type: string
+                          description: an identifiable string of the perpetrator of the request, for example email address. Used for audit and approvals.
                        body:
                          application/xml:
                            example: !include put-member.xml
@@ -283,6 +297,10 @@ mediaType: application/hal+xml
 
                     delete:
                       description: Deletes a UK Federation Member/DomainOwner from the repository immediatly.
+                      headers:
+                        X_PERP:
+                         type: string
+                         description: an identifiable string of the perpetrator of the request, for example email address. Used for audit and approvals.
                       responses:
                         401:
                           description: Unauthorized. The username and password are incorrect or not supplied.
@@ -329,6 +347,10 @@ mediaType: application/hal+xml
 
                     post:
                       description: Adds a new UK Federation Member/DomainOwner to the repository - subject to validation. Any validation errors are returned to the client.
+                      headers:
+                        X_PERP:
+                         type: string
+                         description: an identifiable string of the perpetrator of the request, for example email address. Used for audit and approvals.
                       body:
                         application/xml:
                           example: !include put-member.xml
