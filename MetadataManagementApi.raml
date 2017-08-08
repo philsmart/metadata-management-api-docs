@@ -447,6 +447,10 @@ mediaType: application/hal+xml
   /:
     post:
       description: Adds an EntityDescriptor/Member/DomainOwner to the approvals queue. Overwrites any previous type in the queue with the same identifier.
+      headers:
+          X_PERP:
+           type: string
+           description: an identifiable string of the perpetrator of the request, for example email address. Used for audit and approvals.
       body:
         application/xml:
           example: !include put-entity.xml
